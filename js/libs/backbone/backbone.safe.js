@@ -58,7 +58,7 @@
 			},
 
 			toJSON: function(model) {
-				return model.toJSON()
+				return model.toJSON();
 			}
 		};
 
@@ -93,7 +93,7 @@
 		},
 
 		create: function() {
-			this.storage().setItem(uniqueID, this.emptyValue);
+			this.storage().setItem(this.uid, this.emptyValue);
 		},
 
 		store: function(model) {
@@ -121,6 +121,6 @@
 		if (uniqueID && context) {
 			context.safe = new Backbone.Safe(uniqueID, context, options);
 		}
-	}
+	};
 
 })();
