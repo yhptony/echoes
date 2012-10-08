@@ -1,18 +1,1 @@
-define([
-	'underscore',
-	'backbone',
-	'safe'
-], function(_, Backbone, safe) {
-
-	var MediaSearch = Backbone.Model.extend({
-		defaults: {
-			query: 'pink floyd'
-		},
-
-		initialize: function(){
-			Backbone.Safe.create('MediaSearch', this);
-		}
-	});
-   
-	return MediaSearch; 
-});
+define(["underscore","backbone","safe"],function(e,t,n){var r=t.Model.extend({defaults:{query:"pink floyd"},initialize:function(){t.Safe.create("MediaSearch",this)}});return r})
