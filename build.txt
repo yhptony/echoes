@@ -1,7 +1,11 @@
 
-test/lib/jasmine-1.2.0/jasmine.css
+css/bootstrap-responsive.css
 ----------------
-test/lib/jasmine-1.2.0/jasmine.css
+css/bootstrap-responsive.css
+
+css/bootstrap-responsive.min.css
+----------------
+css/bootstrap-responsive.min.css
 
 css/bootstrap.css
 ----------------
@@ -15,13 +19,9 @@ css/style.css
 ----------------
 css/style.css
 
-css/bootstrap-responsive.css
+test/lib/jasmine-1.2.0/jasmine.css
 ----------------
-css/bootstrap-responsive.css
-
-css/bootstrap-responsive.min.css
-----------------
-css/bootstrap-responsive.min.css
+test/lib/jasmine-1.2.0/jasmine.css
 
 js/main.js
 ----------------
