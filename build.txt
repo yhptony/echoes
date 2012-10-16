@@ -17,6 +17,8 @@ css/bootstrap.min.css
 
 css/style.css
 ----------------
+css/bootstrap.min.css
+css/bootstrap-responsive.min.css
 css/style.css
 
 test/lib/jasmine-1.2.0/jasmine.css
