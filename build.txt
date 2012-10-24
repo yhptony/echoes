@@ -17,6 +17,8 @@ css/bootstrap.min.css
 
 css/style.css
 ----------------
+css/bootstrap.min.css
+css/bootstrap-responsive.min.css
 css/style.css
 
 test/lib/jasmine-1.2.0/jasmine.css
@@ -43,6 +45,7 @@ js/views/youtube_search_results.js
 js/models/results_navigation.js
 text!templates/results_navigation.html
 js/views/results_navigation.js
+js/views/feed_filter.js
 js/models/youtube_media_provider.js
 js/collections/history_playlist.js
 js/views/player_app.js
