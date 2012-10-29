@@ -1,1 +1,106 @@
-define(["jquery","underscore","backbone","views/media_search","views/youtube_player","views/youtube_search_results","views/results_navigation","views/feed_filter","models/youtube_media_provider","collections/history_playlist"],function(e,t,n,r,i,s,o,u,a,f){var l=n.View.extend({initialize:function(){this.modules={},this.modules.search=new r,this.modules.search.on("search-request",this.onNewSearch,this),this.modules.mediaProvider=new a,this.modules.mediaProvider.on("new-media-response",this.onYoutubeSearchResponse,this),this.modules.youtubePlayer=new i,this.modules.resultsView=new s,this.modules.resultsView.on("search-result-selected",this.onMediaAddedToQueue,this),this.modules.resultsNav=new o,this.modules.resultsNav.on("navigate-index-change",this.onSearchResultsIndexChange,this),this.modules.historyPlaylistData=new f,this.modules.searchFeedFilter=new u,this.modules.searchFeedFilter.on("feed-type-change",this.onNewSearch,this)},renderExplore:function(){return this.modules.mediaProvider.set("query",this.modules.search.getQuery()),this.modules.mediaProvider.validateQuerySearch(),this},renderHistory:function(){return this.modules.resultsView.update(this.modules.historyPlaylistData.toJSON().reverse()),this},onYoutubeSearchResponse:function(e){this.modules.resultsView.update(e.items),this.modules.resultsNav.update(e)},onNewSearch:function(e){this.modules.mediaProvider.set(e)},onSearchResultsIndexChange:function(e){this.modules.mediaProvider.set("startIndex",e)},onMediaAddedToQueue:function(e){this.modules.youtubePlayer.play(e),this.modules.historyPlaylistData.queue(e)},toggleViews:function(e){t.each(Array.prototype.slice.call(arguments,1),function(t){t.$el.toggleClass("hidden",!e)})}});return l})
+define([
+	'jquery',
+	'underscore',
+	'backbone',
+
+	'views/media_search',
+	'views/youtube_player',
+	'views/content_layout',
+	'views/results_navigation',
+	'views/feed_filter',
+
+	'models/youtube_media_provider',
+	'collections/history_playlist'
+], function($, _, Backbone,
+	MediaSearch, YoutubePlayer, ContentLayoutView,
+	ResultsNavigation, FeedFilter, YoutubeMediaProvider, HistoryPlaylist) {
+   
+    var PlayerApp = Backbone.View.extend({
+		initialize: function() {
+			//- create an instance of the media provider
+			this.modules = {};
+			this.modules.searchBar = new MediaSearch();
+			this.modules.searchBar.on('search-request', this.query, this);
+
+			this.modules.mediaProvider = new YoutubeMediaProvider();
+			this.modules.mediaProvider.on('new-media-response', this.onYoutubeSearchResponse, this);
+
+			this.modules.youtubePlayer = new YoutubePlayer();
+			this.modules.resultsView = new ContentLayoutView({ model: this.model });
+			this.modules.resultsView.on('search-result-selected', this.onMediaSelected, this);
+			this.modules.resultsNav = new ResultsNavigation();
+			this.modules.resultsNav.on('navigate-index-change', this.onSearchResultsIndexChange, this);
+			this.modules.historyPlaylistData = new HistoryPlaylist();
+			this.modules.searchFeedFilter = new FeedFilter();
+			this.modules.searchFeedFilter.on('feed-type-change', this.onNewSearch, this);
+
+			//- bind model events
+			this.model.on('change:route', this.onNavigationChange, this);
+			this.model.on('change:play', this.play, this);
+		},
+
+		routes: {
+			'explore': 'renderExplore',
+			'history': 'renderHistory'
+		},
+
+		onNavigationChange: function(model, route) {
+			var method = this.routes[route];
+			if (method) {
+				this[method].call(this);
+			}
+		},
+
+		query: function(query, options) {
+			//- in case the query is null - get it from the default query
+			query = query || this.modules.searchBar.getQuery();
+			this.modules.mediaProvider.query({ query: query});
+			this.modules.searchBar.setQuery(query);
+			if (options && options.ignore) {
+				return;
+			}
+		},
+
+		renderExplore: function() {
+			this.modules.mediaProvider.set('query', this.modules.searchBar.getQuery());
+			//- if it's the same query value - initiate manual search
+			this.modules.mediaProvider.validateQuerySearch();
+			return this;
+		},
+
+		renderHistory: function() {
+			this.modules.resultsView.update( this.modules.historyPlaylistData.toJSON().reverse() );
+			return this;
+		},
+
+		onYoutubeSearchResponse: function(data) {
+			this.modules.resultsView.update(data.items);
+			this.modules.resultsNav.update(data);
+		},
+
+		onNewSearch: function(query) {
+			this.model.set('filter', query.feedType);
+			this.modules.mediaProvider.set(query);
+		},
+
+		onSearchResultsIndexChange: function(index) {
+			this.modules.mediaProvider.set('startIndex', index);
+		},
+
+		onMediaSelected: function(mediaData, options) {
+			this.modules.historyPlaylistData.queue(mediaData);
+		},
+
+		play: function(model, mediaData) {
+			this.modules.youtubePlayer.play(mediaData, model.getOptions());
+		},
+
+		toggleViews: function(show) {
+			_.each(Array.prototype.slice.call(arguments, 1), function(view) {
+				view.$el.toggleClass('hidden', !show);
+			});
+		}
+	});
+   
+    return PlayerApp;
+});

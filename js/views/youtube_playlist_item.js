@@ -2,10 +2,10 @@ define([
 	'jquery',
 	'underscore',
 	'backbone',
-	'text!templates/youtube_item.html'
-], function($, _, Backbone, YoutubeItemTemplate) {
+	'text!templates/youtube_playlist_item.html'
+], function($, _, Backbone, YoutubePlaylistItemTemplate) {
    
-    var YoutubeItemView = Backbone.View.extend({
+    var YoutubePlaylistItem = Backbone.View.extend({
 		tagName: 'li',
 		
 		className: 'well youtube-item span3 nicer-ux',
@@ -16,7 +16,7 @@ define([
 		},
 
 		initialize: function() {
-			this.template = _.template(YoutubeItemTemplate);
+			this.template = _.template(YoutubePlaylistItemTemplate);
 		},
 
 		render: function() {
@@ -40,5 +40,5 @@ define([
 		}
 	});
    
-    return YoutubeItemView;
+    return YoutubePlaylistItem;
 });
