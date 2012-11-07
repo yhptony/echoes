@@ -7,6 +7,7 @@
 	<title>Echoes Media Center ~=~ EMC</title>
 	<meta name="description" content="Media Player built upon various media services">
 	<meta name="author" content="Oren Farhi">
+	<link type="image/x-icon" rel="shortcut icon" href="img/noun_project_220.ico">
 
 	<meta name="MobileOptimized" content="320">
     <meta http-equiv="cleartype" content="on">
@@ -31,36 +32,53 @@
 						<span class="icon-bar"></span>
 					</a>
 					<a class="brand" href="#">Ech<i class="icon-headphones icon-white">o</i>es</a>
-					<!-- div class="btn-group pull-right">
-						<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-							<i class="icon-user"></i> Username
+					 
+					 <!-- User Profile -->
+					 <div id="user-profile" class="btn-group pull-right user-profile">
+						<a class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="#">
+							<i class="icon-user icon-white"></i>
+							<span class="username">Username</span>
 							<span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Profile</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Sign Out</a></li>
+							<!-- <li><a href="#">Profile</a></li> -->
+							<!-- <li class="divider"></li> -->
+							<li><a href="#user-sign-in" class="sign-in">Sign In</a></li>
+							<li><a href="#user-sign-out" class="sign-out">Sign Out</a></li>
 						</ul>
-					</div-->
+					</div>
+
 					<div class="nav-collapse">
 						
-						<!-- NAVIGATION -->
 						<ul class="nav">
-							<li class="active"><a href="#explore">Explore</a></li>
-							<li><a href="#history">History</a></li>
-						</ul>
+							
+							<!-- SEARCH FORM -->
+							<li>
+								<form class="navbar-form form-search" id="media-explorer">
+									<input placeholder="Explore My Media" id="media-search" type="search" class="input-medium span4">
+								</form>
+							</li>
 
-						<!-- SEARCH NAVIGATION -->
-						<ul class="nav pull-right">
+							<!-- SEARCH FILTER -->
+							<li>
+								
+								<div id="feed-filter" class="btn-group feed-filters">
+									<a class="btn btn-inverse videos" href="#filter/videos" title="Explore Videos">
+										<i class="icon-film icon-white"></i>
+									</a>
+									<a class="btn btn-inverse playlists" href="#filter/playlists" title="Explore Playlists">
+										<i class="icon-th-list icon-white"></i>
+									</a>
+								</div>
+
+							</li>
+
+							<!-- SEARCH NAVIGATION -->
 							<li>
 								<div id="results-navigator" class="results-navigator"></div>
 							</li>
 						</ul>
 
-						<!-- SEARCH FORM -->
-						<form class="form-search pull-right" id="media-explorer">
-							<input placeholder="Explore My Media" id="media-search" type="search" class="input-medium search-query span4">
-						</form>
 						
 					</div>
 				</div>
@@ -84,21 +102,24 @@
 		</div>
 
 		<!-- SIDEBAR -->
-		<div class="sidebar sidebar-left-fixed span2 well">
-			<div class="">
-				<ul class="nav nav-list nicer-ux">
-					<li class="nav-header">Library</li>
-					<li class="active"><a href="#explore"><i class="icon-music icon-white"></i>Music</a></li>
-					<li><a href="#explore"><i class="icon-facetime-video icon-white"></i>Movies</a></li>
-					<li class="nav-header">Genere</li>
-					<li><a href="#explore"><i class="icon-tag icon-white"></i>Lounge</a></li>
-					<li class="nav-header">Playlists <i class="icon-plus-sign icon-white pull-right"></i></li>
-					<li><a href="#explore"><i class="icon-list-alt icon-white"></i>Now Playing</a></li>
-					<li><a href="#explore"><i class="icon-list-alt icon-white"></i>Pink Floyd</a></li>
-					<li><a href="#explore"><i class="icon-list-alt icon-white"></i>Porcupine Tree</a></li>
-					<li><a href="#explore"><i class="icon-list-alt icon-white"></i>Opeth</a></li>
-				</ul>
-			</div>
+		<div class="sidebar sidebar-left-fixed span3 well">
+			<ul id="library-nav" class="nav nav-list nicer-ux">
+				<li class="nav-header">Library</li>
+				<li class="active"><a href="#explore"><i class="icon-music icon-white"></i>Explore</a></li>
+				<li><a href="#history"><i class="icon-time icon-white"></i>History</a></li>
+			</ul>
+			<ul class="nav nav-list nicer-ux">
+				<li class="nav-header">Recent Searches</li>
+				<li><a href="#explore"><i class="icon-search icon-white"></i>...</a></li>
+			</ul>
+			<ul class="nav nav-list">
+				<li class="nav-header">Playlists <i class="icon-plus-sign icon-white pull-right"></i></li>
+				<!-- <li><a href="#explore"><i class="icon-list-alt icon-white"></i>Now Playing</a></li>
+				<li><a href="#explore"><i class="icon-list-alt icon-white"></i>Pink Floyd</a></li>
+				<li><a href="#explore"><i class="icon-list-alt icon-white"></i>Porcupine Tree</a></li>
+				<li><a href="#explore"><i class="icon-list-alt icon-white"></i>Opeth</a></li> -->
+			</ul>
+			<ul id="user-playlists" class="nav nav-list nicer-ux user-playlists"></ul>
 		</div>
 
 		<!-- MAIN CONTENT -->
@@ -109,13 +130,13 @@
 				<div class="span12">
 
 					<!-- SEARCH RESULTS AREA -->
-					<ul id="searchResults" class="clearfix unstyled">
-						<li class="well span12">
+					<div id="search-results" class="clearfix">
+						<div class="well span12">
 							<div class="progress progress-striped active">
 							  <div class="bar" style="width: 40%;"></div>
 							</div>
-						</li>	
-					</ul>
+						</div>	
+					</div>
 
 				</div>
 			</div>
@@ -127,7 +148,7 @@
 		</div>
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script> -->
 
-	<script data-main="js/main" src="js/libs/require/require.js"></script>
+	<script data-main="js/config" src="js/libs/require/require.js"></script>
 
 </body>
 </html>

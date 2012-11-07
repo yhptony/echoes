@@ -1,1 +1,44 @@
-define(["jquery","underscore","backbone","views/media_search","views/youtube_player","views/youtube_search_results","views/results_navigation","models/youtube_media_provider","collections/history_playlist"],function(e,t,n,r,i,s,o,u,a){var f=n.View.extend({initialize:function(){this.modules={},this.modules.search=new r,this.modules.search.on("search-request",this.onNewSearch,this),this.modules.mediaProvider=new u,this.modules.mediaProvider.on("new-media-response",this.onYoutubeSearchResponse,this),this.modules.youtubePlayer=new i,this.modules.resultsView=new s,this.modules.resultsView.on("search-result-selected",this.onMediaAddedToQueue,this),this.modules.resultsNav=new o,this.modules.resultsNav.on("navigate-index-change",this.onSearchResultsIndexChange,this),this.modules.historyPlaylistData=new a},renderExplore:function(){return this.modules.mediaProvider.set("query",this.modules.search.getQuery()),this.modules.mediaProvider.validateQuerySearch(),this},renderHistory:function(){return this.modules.resultsView.update(this.modules.historyPlaylistData.toJSON().reverse()),this},onYoutubeSearchResponse:function(e){this.modules.resultsView.update(e.items),this.modules.resultsNav.update(e)},onNewSearch:function(e){this.modules.mediaProvider.set("query",e)},onSearchResultsIndexChange:function(e){this.modules.mediaProvider.set("startIndex",e)},onMediaAddedToQueue:function(e){this.modules.youtubePlayer.play(e),this.modules.historyPlaylistData.queue(e)},toggleViews:function(e){t.each(Array.prototype.slice.call(arguments,1),function(t){t.$el.toggleClass("hidden",!e)})}});return f})
+define([
+	'jquery',
+	'underscore',
+	'backbone',
+
+	'views/media_search',
+	'views/youtube_player',
+	'views/content_layout',
+	'views/results_navigation',
+	'views/feed_filter',
+	'views/youtube_playlists_provider',
+	'views/user_profile_manager',
+
+	'collections/history_playlist'
+], function($, _, Backbone,
+	MediaSearch, YoutubePlayer, ContentLayoutView,
+	ResultsNavigation, FeedFilter, YoutubePlaylistsProvider, UserProfileManager,
+	HistoryPlaylist) {
+   
+    var PlayerApp = Backbone.View.extend({
+		initialize: function() {
+			//- create an instance of the media provider
+			this.modules = {};
+			this.modules.searchBar = new MediaSearch({ model: this.model });
+			this.modules.youtubePlayer = new YoutubePlayer({ model: this.model });
+			this.modules.contentView = new ContentLayoutView({ model: this.model });
+			this.modules.resultsNav = new ResultsNavigation({ model: this.model });
+			// this.modules.historyPlaylistData = new HistoryPlaylist();
+			this.modules.searchFeedFilter = new FeedFilter({ model: this.model });
+			this.modules.userPlaylists = new YoutubePlaylistsProvider({ model: this.model });
+			this.modules.userProfileManager = new UserProfileManager({ model: this.model });
+
+			this.model.connectUser();
+		}
+
+		// renderHistory: function() {
+		// 	this.modules.contentView.update( this.modules.historyPlaylistData.toJSON().reverse() );
+		// 	return this;
+		// },
+
+	});
+   
+    return PlayerApp;
+});

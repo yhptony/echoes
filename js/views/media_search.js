@@ -1,1 +1,47 @@
-define(["jquery","underscore","backbone","models/media_search"],function(e,t,n,r){var i=n.View.extend({el:"#media-explorer",events:{"click button":"querySearch",submit:"querySearch"},initialize:function(){this.model=new r,this.model.on("change:query",this.publishSearch,this),this.$search=this.$el.find("input"),this.$search.val(this.model.get("query"))},querySearch:function(e){e.preventDefault(),this.model.set("query",this.$search.val())},publishSearch:function(){this.trigger("search-request",this.model.get("query"))},getQuery:function(){return this.model.get("query")}});return i})
+define([
+	'jquery',
+	'underscore',
+	'backbone',
+	'models/media_search'
+], function($, _, Backbone, MediaSearchModel) {
+   
+    var MediaSearch = Backbone.View.extend({
+		el: '#media-explorer',
+		
+		events: {
+			'submit': 'querySearch'
+		},
+
+		initialize: function(){
+			this.searchModel = new MediaSearchModel();
+			this.model.on('change:query', this.render, this);
+			// cache input field
+			this.$search = this.$el.find('input');
+			this.$search.val(this.model.get('query'));
+		},
+
+		render: function() {
+			var query = this.model.get('query');
+			this.$search.val(query);
+			this.searchModel.set({ query: query }, { silent: true });
+			return this;
+		},
+
+		querySearch: function(ev) {
+			ev.preventDefault();
+			var query = this.$search.val();
+			this.searchModel.set({ query: query }, { silent: true });
+			this.model.set({ query: query });
+		},
+
+		getQuery: function() {
+			return this.searchModel.get('query');
+		},
+
+		setQuery: function(query) {
+			this.searchModel.set('query', query);
+		}
+	});
+   
+    return MediaSearch;
+});
