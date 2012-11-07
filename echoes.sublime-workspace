@@ -555,7 +555,7 @@
 			"file": "js/models/player_app.js",
 			"settings":
 			{
-				"buffer_size": 2460,
+				"buffer_size": 2480,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 120194,
+				"buffer_size": 10102,
 				"line_ending": "Windows"
 			}
 		},
@@ -587,7 +587,7 @@
 			"file": "js/views/feed_filter.js",
 			"settings":
 			{
-				"buffer_size": 1456,
+				"buffer_size": 791,
 				"line_ending": "Windows"
 			}
 		}
@@ -1088,6 +1088,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/youtube_media_provider.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_playlists_results.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_search_results.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/views/results_navigation.js",
@@ -1105,7 +1106,6 @@
 		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/models/media_search.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.collection_view.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/models/youtube_media_provider.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_playlists_provider.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/config.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/libs/require/require.js",
@@ -1241,6 +1241,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"< HEAD",
 			"this",
 			"this.play(",
 			"ul",
@@ -1367,8 +1368,7 @@
 			"topUsers",
 			"\"Lorem",
 			"lorem",
-			"Lorem",
-			"]"
+			"Lorem"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1412,8 +1412,8 @@
 						"selection":
 						[
 							[
-								2583,
-								2583
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1443,8 +1443,8 @@
 						"selection":
 						[
 							[
-								1019,
-								1019
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1473,13 +1473,13 @@
 						"selection":
 						[
 							[
-								442,
-								442
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": true,
+							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
@@ -1503,8 +1503,8 @@
 						"selection":
 						[
 							[
-								437,
-								437
+								325,
+								325
 							]
 						],
 						"settings":
@@ -1524,7 +1524,7 @@
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1532,15 +1532,15 @@
 					"file": "js/models/player_app.js",
 					"settings":
 					{
-						"buffer_size": 2460,
+						"buffer_size": 2480,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								178,
-								178
+								912,
+								912
 							]
 						],
 						"settings":
@@ -1551,8 +1551,8 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 122.0,
+						"translation.x": 122.0,
+						"translation.y": 282.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1569,8 +1569,8 @@
 						"selection":
 						[
 							[
-								386,
-								386
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1592,7 +1592,7 @@
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 120194,
+						"buffer_size": 10102,
 						"regions":
 						{
 						},
@@ -1629,8 +1629,8 @@
 						"selection":
 						[
 							[
-								135,
-								135
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1652,15 +1652,15 @@
 					"file": "js/views/feed_filter.js",
 					"settings":
 					{
-						"buffer_size": 1456,
+						"buffer_size": 791,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								252,
+								252
 							]
 						],
 						"settings":
@@ -1740,6 +1740,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"medipro",
+				"js/models/youtube_media_provider.js"
+			],
 			[
 				"feed",
 				"js/views/feed_filter.js"
@@ -2247,10 +2251,6 @@
 			[
 				"galitevi",
 				"js/components/galleryItemView/views/galleryItemView_view.js"
-			],
-			[
-				"html",
-				"js/components/applicationHeader/templates/navigation.html"
 			]
 		],
 		"width": 0.0
