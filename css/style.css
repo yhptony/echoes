@@ -60,7 +60,7 @@ footer p {
 }
 .container-main {
 	padding: 1px 1px 30px;
-	margin-left: 169px;
+	margin-left: 270px;
 	margin-top: 39px;
 }
 ::-webkit-scrollbar,
@@ -100,6 +100,11 @@ footer p {
 	-o-transition:      all 0.2s ease-out;
 	transition:         all 0.2s ease-out;
 }
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 .brand i.icon-headphones {
 	margin-bottom: 1px;
 	overflow: hidden;
@@ -118,6 +123,9 @@ footer p {
 	height: 38px;
 	line-height: 38px;
 	margin-right: 20px;
+}
+.sidebar {
+	height: 100%;
 }
 .nav .nav-header,
 .nav li + .nav-header {
@@ -175,20 +183,11 @@ footer p {
 	margin-bottom: 1px;
 	position: relative;
 	padding: 15px;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
 	border-radius: 0;
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
-	-webkit-box-shadow: 0 0 0 black;
-	-moz-box-shadow: 0 0 0 black;
-	box-shadow: 0 0 0 black;
+	background-color: rgba(0,0,0,0);
+	
 }
 .well.youtube-item:hover {
-    -webkit-box-shadow: 0px 0px 15px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 0px 15px rgba(0,0,0,1);
-    box-shadow: 0px 0px 15px rgba(0,0,0,1);
     background-color: rgba(0,0,0,.9);
 }
 .youtube-item .badge.badge-warning {
@@ -238,7 +237,7 @@ footer p {
 	right: 5px;
 	z-index: 1031;
 	bottom: 5px;
-	width: 280px;
+	width: 360px;
 }
 .youtube-player .btn {
 	width: 100%;
@@ -258,6 +257,7 @@ footer p {
 	right: 5px;
 	box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, .9);
 	background: rgba(0,0,0,.8);
+	-webkit-transition-duration: 0.5s;
 }
 .show-youtube-player .yt-player {
 	bottom: 31px;
@@ -303,6 +303,32 @@ footer p {
 @-webkit-keyframes rotation {
 	100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg);transform: rotate(360deg);}
 }
+.user-playlists {
+	overflow-y: auto;
+	height: 63%;
+}
+.user-playlist {
+	position: relative;
+}
+.user-playlist .badge {
+	position: absolute;
+	right: 0;
+}
+.user-profile .sign-out {
+	display: none;
+}
+.user-profile.user-signed-in .sign-out {
+	display: block;
+}
+.user-profile.user-signed-in .sign-in {
+	display: none;
+}
+.user-profile.user-signed-in .icon-user {
+	width: 20px;
+	height: 20px;
+	background-size: cover;
+	background-position: 0 0;
+}
 .wood body {
 	background: url(../img/tileable_wood_texture.png);
 	background-attachment: fixed;
@@ -323,7 +349,8 @@ footer p {
 	background-color: rgba(0, 0, 0, .75);
 	box-shadow: 2px 5px 10px black;
 }
-.wood a:not(.add-to-playlist) {
+.wood .sidebar a,
+.wood .youtube-item .media-title {
 	color: white;
 }
 .wood .youtube-item .media-title {
@@ -365,7 +392,7 @@ footer p {
 .wood .nav-list li a {
 	border-top: 1px solid #444;
 	border-bottom: 1px solid #222;  
-	padding: 12px 15px;  
+	padding: 12px 40px 12px 15px;
 }
 @media (max-width: 767px) {
 	body {

@@ -1,12 +1,1 @@
-define([
-	'underscore',
-	'backbone',
-	'models/youtube_playlist_item'
-], function(_, Backbone, YoutubePlaylistItemModel) {
-   
-    var YoutubePlaylistSearchResults = Backbone.Collection.extend({
-		model: YoutubePlaylistItemModel
-	});
-   
-    return YoutubePlaylistSearchResults; 
-});
+define(["underscore","backbone","models/youtube_playlist_item"],function(e,t,n){var r=t.Collection.extend({model:n});return r})
