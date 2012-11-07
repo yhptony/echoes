@@ -571,7 +571,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 10102,
+				"buffer_size": 120194,
 				"line_ending": "Windows"
 			}
 		},
@@ -587,7 +587,7 @@
 			"file": "js/views/feed_filter.js",
 			"settings":
 			{
-				"buffer_size": 791,
+				"buffer_size": 1456,
 				"line_ending": "Windows"
 			}
 		}
@@ -598,6 +598,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"star",
+				"SublimeServer: Start SublimeServer"
+			],
 			[
 				"pa dis",
 				"Package Control: Disable Package"
@@ -653,10 +657,6 @@
 			[
 				"upper",
 				"Convert Case: Upper Case"
-			],
-			[
-				"star",
-				"SublimeServer: Start SublimeServer"
 			],
 			[
 				"pacins",
@@ -1223,7 +1223,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 96.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"<open folders>,",
@@ -1592,15 +1592,15 @@
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 10102,
+						"buffer_size": 120194,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5972,
-								5972
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1652,15 +1652,15 @@
 					"file": "js/views/feed_filter.js",
 					"settings":
 					{
-						"buffer_size": 791,
+						"buffer_size": 1456,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								215,
-								215
+								128,
+								128
 							]
 						],
 						"settings":
