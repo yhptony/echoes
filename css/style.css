@@ -184,10 +184,24 @@ footer p {
 	position: relative;
 	padding: 15px;
 	border-radius: 0;
+<<<<<<< HEAD
 	background-color: rgba(0,0,0,0);
 	
 }
 .well.youtube-item:hover {
+=======
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	-webkit-box-shadow: 0 0 0 black;
+	-moz-box-shadow: 0 0 0 black;
+	box-shadow: 0 0 0 black;
+}
+.well.youtube-item:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 15px rgba(0,0,0,1);
+    box-shadow: 0px 0px 15px rgba(0,0,0,1);
+>>>>>>> 06733dbf417cff57bd33aa814287ba470dc15df0
     background-color: rgba(0,0,0,.9);
 }
 .youtube-item .badge.badge-warning {
@@ -349,8 +363,12 @@ footer p {
 	background-color: rgba(0, 0, 0, .75);
 	box-shadow: 2px 5px 10px black;
 }
+<<<<<<< HEAD
 .wood .sidebar a,
 .wood .youtube-item .media-title {
+=======
+.wood a:not(.add-to-playlist) {
+>>>>>>> 06733dbf417cff57bd33aa814287ba470dc15df0
 	color: white;
 }
 .wood .youtube-item .media-title {

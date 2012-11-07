@@ -1,0 +1,2288 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"medi",
+				"mediaData"
+			],
+			[
+				"pla",
+				"playlistProvider"
+			],
+			[
+				"resunav",
+				"resultsNav"
+			],
+			[
+				"res",
+				"resultsView"
+			],
+			[
+				"Yout",
+				"YoutubePlayer"
+			],
+			[
+				"Youtu",
+				"YoutubeMediaProvider"
+			],
+			[
+				"jqu",
+				"jquery"
+			],
+			[
+				"jq",
+				"jquery"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"histo",
+				"historyPlaylist"
+			],
+			[
+				"Sto",
+				"Storger"
+			],
+			[
+				"to",
+				"toJSON"
+			],
+			[
+				"media",
+				"mediaProvider"
+			],
+			[
+				"resna",
+				"resultsNav"
+			],
+			[
+				"History",
+				"HistoryPlaylist"
+			],
+			[
+				"You",
+				"YoutubeMediaProvider"
+			],
+			[
+				"View",
+				"views"
+			],
+			[
+				"Com",
+				"CommentView"
+			],
+			[
+				"relo",
+				"relocate"
+			],
+			[
+				"reloc",
+				"relocateModules"
+			],
+			[
+				"dropdown",
+				"dropdown-options"
+			],
+			[
+				"Dropd",
+				"DropdownOptions"
+			],
+			[
+				"drop",
+				"dropdown-master"
+			],
+			[
+				"dropd",
+				"dropdown-click"
+			],
+			[
+				"check",
+				"checkboxes"
+			],
+			[
+				"area",
+				"areaChartData"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"table",
+				"table-view"
+			],
+			[
+				"onR",
+				"handleOnRowStatusChanged"
+			],
+			[
+				"TABL",
+				"TABLE_ROW_STATUS_CHANGED"
+			],
+			[
+				"ROW_S",
+				"ROW_STATUS_CHANGED"
+			],
+			[
+				"changed",
+				"changedRows"
+			],
+			[
+				"che",
+				"checkRadio"
+			],
+			[
+				"cssC",
+				"cssClassToRemove"
+			],
+			[
+				"handle",
+				"handleStatusChange"
+			],
+			[
+				"itemCe",
+				"itemCell"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"has",
+				"hasDropdowns"
+			],
+			[
+				"hasC",
+				"hasCheckboxes"
+			],
+			[
+				"locations",
+				"locations-status"
+			],
+			[
+				"bac",
+				"background	background-color: hex"
+			],
+			[
+				"item",
+				"itemRow"
+			],
+			[
+				"enable",
+				"enable-location"
+			],
+			[
+				"loca",
+				"locations-status"
+			],
+			[
+				"Locast",
+				"LocationStatusWidget"
+			],
+			[
+				"st",
+				"statusDropdown"
+			],
+			[
+				"on",
+				"onEnableStatusClick"
+			],
+			[
+				"nodest",
+				"node-status-disabled"
+			],
+			[
+				"node-le",
+				"node-leaf-icon"
+			],
+			[
+				"node-",
+				"node-enabled"
+			],
+			[
+				"overf",
+				"overflow-x"
+			],
+			[
+				"button",
+				"buttonsTemplate"
+			],
+			[
+				"chec",
+				"checkboxCellTemplate"
+			],
+			[
+				"pag",
+				"pagination"
+			],
+			[
+				"tabl",
+				"tableWithChild"
+			],
+			[
+				"get",
+				"getChecked"
+			],
+			[
+				"cell",
+				"cellValue"
+			],
+			[
+				"trigger",
+				"triggerCheckEvent"
+			],
+			[
+				"handlonro",
+				"handleOnRowClosed"
+			],
+			[
+				"getCEll",
+				"getCellStates"
+			],
+			[
+				"clas",
+				"classes"
+			],
+			[
+				"chil",
+				"childCssClass"
+			],
+			[
+				"getLe",
+				"getLeafClass"
+			],
+			[
+				"cs",
+				"cssClassToRemove"
+			],
+			[
+				"cssc",
+				"cssClassToAdd"
+			],
+			[
+				"append",
+				"appendMethod"
+			],
+			[
+				"TRe",
+				"TreeTableRow"
+			],
+			[
+				"isL",
+				"isLeaf"
+			],
+			[
+				"crea",
+				"createRow"
+			],
+			[
+				"isVa",
+				"isValidRow"
+			],
+			[
+				"node",
+				"node-opened"
+			],
+			[
+				"getC",
+				"getLeafClass"
+			],
+			[
+				"ISLE",
+				"IS_LEAF"
+			],
+			[
+				"type",
+				"types"
+			],
+			[
+				"isLEA",
+				"IS_LEAF"
+			],
+			[
+				"isValid",
+				"isValidRowId"
+			],
+			[
+				"isV",
+				"isValidLevel"
+			],
+			[
+				"IS",
+				"IS_CHECKED"
+			],
+			[
+				"CHC",
+				"CHECKBOX_STATUS"
+			],
+			[
+				"ISL",
+				"IS_LEAF"
+			],
+			[
+				"AD",
+				"append"
+			],
+			[
+				"COMPA",
+				"COMPANY_NAME"
+			],
+			[
+				"cbo",
+				"cboUnchecked"
+			],
+			[
+				"cot",
+				"content"
+			],
+			[
+				"create",
+				"createTreeTable"
+			],
+			[
+				"tablemini",
+				"table-view-minimized"
+			],
+			[
+				"Tbl",
+				"TableWidget"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"table-",
+				"table-widget-render-complete"
+			],
+			[
+				"conti",
+				"containerHeight"
+			],
+			[
+				"container",
+				"containerHeight"
+			],
+			[
+				"contain",
+				"containerHeight"
+			],
+			[
+				"Sim",
+				"SimpleCell"
+			],
+			[
+				"fixed",
+				"fixedColumnModel"
+			],
+			[
+				"prepar",
+				"prepareModelForFixedColumn"
+			],
+			[
+				"Table",
+				"TableWidget"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"total",
+				"totalPages"
+			],
+			[
+				"tot",
+				"totalPages"
+			],
+			[
+				"radio",
+				"radio-button"
+			],
+			[
+				"CEl",
+				"CellModel"
+			],
+			[
+				"RADIO",
+				"RADIO_OFF"
+			],
+			[
+				"newP",
+				"newPageIndex"
+			],
+			[
+				"reset",
+				"resetStyle"
+			],
+			[
+				"navi",
+				"navigationClass"
+			],
+			[
+				"NAV",
+				"NAVIGATION_CHANGED"
+			],
+			[
+				"TableWi",
+				"TableWidgetHeader"
+			],
+			[
+				"Row",
+				"RowView"
+			],
+			[
+				"Rows",
+				"RowsList"
+			],
+			[
+				"adi",
+				"adminNotesTable"
+			],
+			[
+				"Tabl",
+				"TableView"
+			],
+			[
+				"Pag",
+				"PaginationModel"
+			],
+			[
+				"TAbl",
+				"TableAdminNotes"
+			],
+			[
+				"Cel",
+				"CellView"
+			],
+			[
+				"handl",
+				"handleEvents"
+			],
+			[
+				"FILE",
+				"FILE_AI_TYPE"
+			],
+			[
+				"FileView",
+				"FileViewerView"
+			],
+			[
+				"renderH",
+				"renderHeader"
+			],
+			[
+				"dropdo",
+				"dropdownClickedEventType"
+			],
+			[
+				"navT",
+				"navTopClass"
+			],
+			[
+				"depth",
+				"DepthHandler"
+			],
+			[
+				"depthC",
+				"depthTopClass"
+			],
+			[
+				"dept",
+				"depthContainer"
+			],
+			[
+				"att",
+				"attachMenuLevelHandler"
+			],
+			[
+				"toggl",
+				"toggleNavsLevelHandler"
+			],
+			[
+				"File",
+				"FileViewerModel"
+			],
+			[
+				"service",
+				"serviceType"
+			],
+			[
+				"overflow",
+				"overflow-y"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5718,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/views/player_app.js",
+			"settings":
+			{
+				"buffer_size": 1416,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/models/youtube_media_provider.js",
+			"settings":
+			{
+				"buffer_size": 1262,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/routers/app_router.js",
+			"settings":
+			{
+				"buffer_size": 1272,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/models/player_app.js",
+			"settings":
+			{
+				"buffer_size": 2460,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/views/youtube_player.js",
+			"settings":
+			{
+				"buffer_size": 3093,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 10102,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/views/media_search.js",
+			"settings":
+			{
+				"buffer_size": 1034,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/views/feed_filter.js",
+			"settings":
+			{
+				"buffer_size": 791,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/RequireJS.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"pacenabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"start",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"pac dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pac is",
+				"Package Control: Install Package"
+			],
+			[
+				"pac disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"paclis",
+				"Package Control: List Packages"
+			],
+			[
+				"pac insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"syn javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"stop",
+				"SublimeServer: Stop SublimeServer"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"star",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"pacins",
+				"Package Control: Install Package"
+			],
+			[
+				"su stop",
+				"SublimeServer: Stop SublimeServer"
+			],
+			[
+				"servest",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"syn javsc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"serverst",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"servsa",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"synjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synjavscript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn javscr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn scrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"synjascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synjscri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synjscr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"paclist",
+				"Package Control: List Packages"
+			],
+			[
+				"pac ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"syn jsc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack di",
+				"Package Control: Disable Package"
+			],
+			[
+				"pac ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"openin",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"tortoi",
+				"Preferences: Tortoise Key Bindings – Default"
+			],
+			[
+				"tor key",
+				"Preferences: Tortoise Key Bindings – Default"
+			],
+			[
+				"torto",
+				"Preferences: Tortoise Key Bindings – User"
+			],
+			[
+				"pac li",
+				"Package Control: List Packages"
+			],
+			[
+				"pac re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac  remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"fold",
+				"Code Folding: Unfold All"
+			],
+			[
+				"boone",
+				"Bookmarks: Select Next"
+			],
+			[
+				"boo",
+				"Bookmarks: Toggle"
+			],
+			[
+				"bo nex",
+				"Bookmarks: Select Next"
+			],
+			[
+				"book",
+				"Bookmarks: Toggle"
+			],
+			[
+				"viewtoope",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"viewin",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"pac en",
+				"Package Control: Enable Package"
+			],
+			[
+				"syn act",
+				"Set Syntax: ActionScript"
+			],
+			[
+				"convertab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"uppe",
+				"Convert Case: Upper Case"
+			],
+			[
+				"PAC DIS",
+				"Package Control: Disable Package"
+			],
+			[
+				"pac enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"pac ne",
+				"Package Control: Enable Package"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"fora",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"syn jasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sytcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"view",
+				"View: Toggle Minimap"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"view file",
+				"File: New View into File"
+			],
+			[
+				"tor",
+				"Preferences: Tortoise Settings – Default"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"snip bac",
+				"Snippet: Object Literal Key (Class Method)"
+			],
+			[
+				"snipp",
+				"Snippet: Bootstrap modal events"
+			],
+			[
+				"conve tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pac con rme",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac con list",
+				"Package Control: List Packages"
+			],
+			[
+				"pac lis",
+				"Package Control: List Packages"
+			],
+			[
+				"pac list",
+				"Package Control: List Packages"
+			],
+			[
+				"pac lit",
+				"Package Control: List Packages"
+			],
+			[
+				"lint sho",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"linte",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"lin sho",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"con tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pac remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn j",
+				"Set Syntax: JSON"
+			],
+			[
+				"con to tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pac di",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"syn ja sc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack ",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pac in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack li",
+				"Package Control: List Packages"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pack con l",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"sy ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pacdi",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: CDATA"
+			],
+			[
+				"fpt",
+				"SFTP: Setup Server…"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"keys",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"change",
+				"Change tracker: Highlight changes"
+			],
+			[
+				"pack discov",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack insaa",
+				"Package Control: Install Package"
+			],
+			[
+				"chan",
+				"Change tracker: Highlight changes"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pac d",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"synt jav s",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"set syn ja sc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"",
+				"Set Syntax: AppleScript"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_playlists_results.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_search_results.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/results_navigation.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/content_layout.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.views_manager.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_playlist_item.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_item.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/media_search.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/collections/youtube_search_results.js",
+		"/C/Users/oren/Documents/GitHub/echoes/templates/youtube_playlist_item.html",
+		"/C/Users/oren/Documents/GitHub/echoes/js/main.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/user_profile_manager.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/user_profile_manager.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/feed_filter.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/media_search.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.collection_view.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/youtube_media_provider.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_playlists_provider.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/config.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/require/require.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/zepto/zepto.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/collections/youtube_playlists_provider.js",
+		"/C/Users/oren/Documents/GitHub/echoes/css/style.css",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_player.js",
+		"/C/Users/oren/AppData/Local/Temp/fz3temp-1/profile.php",
+		"/C/Users/oren/AppData/Local/Temp/fz3temp-1/login.php",
+		"/C/Users/oren/AppData/Local/Temp/fz3temp-1/error_log",
+		"/C/Users/oren/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/users/oren/appdata/local/temp/sublime-sftp-browse-1351921125/orizens-public_html/public_html/tools/services/test.php",
+		"/C/users/oren/appdata/local/temp/sublime-sftp-browse-1351921244/orizens-public_html/public_html/tools/services/examples/social_hub/profile.php",
+		"/C/Users/oren/Documents/GitHub/echoes/index.html",
+		"/C/Users/oren/Documents/GitHub/echoes/notes/sessions.txt",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/scripted.log",
+		"/E/temp/FireFoxDownloads/scripted_v0.2.0/scripted/play-area/tools/dependency_playing.js",
+		"/E/Tools/SublimeText2-64/Data/Packages/User/RequireJS.sublime-build",
+		"/C/Users/oren/Documents/GitHub/echoes/build/app.build.js",
+		"/C/Users/oren/Documents/GitHub/build/echoes-production/js/main.js",
+		"/C/Users/oren/Documents/GitHub/build/echoes-production/css/style.css",
+		"/E/Tools/xampp/htdocs/SublimeProjects/echoes.sublime-workspace",
+		"/E/Tools/xampp/htdocs/SublimeProjects/echoes.sublime-project",
+		"/C/Users/oren/Documents/GitHub/echoes/js/echoes.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/start.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/script.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/experiments.txt",
+		"/C/Users/oren/Documents/GitHub/echoes/templates/results_navigation.html",
+		"/E/Tools/SublimeText2-64/Data/Packages/User/Modific.sublime-settings",
+		"/E/temp/FireFoxDownloads/Tor Browser/Data/Tor/torrc",
+		"/C/Users/oren/Documents/GitHub/echoes/js/routers/app_router.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/collections/history_playlist.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/utils.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/jquery/jquery.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/modernizr/modernizr-2.5.3.min.js",
+		"/C/Users/oren/Desktop/adb.bat",
+		"/C/Users/oren/Desktop/adb.bat.txt",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.safe.js",
+		"/E/Tools/SublimeText2-64/Data/Packages/User/Tortoise.sublime-settings",
+		"/E/Tools/SublimeText2-64/Data/Packages/Tortoise/Tortoise.sublime-settings",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.localStorage.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone-localstorage.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone_offline.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/player_app.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/history_playlist.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/youtube_item.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/results_navigation.js",
+		"/C/Users/oren/Documents/GitHub/echoes/templates/youtube_item.html",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/YoutubeSearchResultsView.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/YoutubeItemView.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/ResultsNavigationView.js",
+		"/C/Users/oren/Documents/GitHub/echoes/templates/ResultsNavigation.html",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/YoutubePlayer.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/MediaSearch.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/YoutubeMediaProvider.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/ResultsNavigation.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/YoutubeItemModel.js",
+		"/C/Users/oren/Documents/GitHub/echoes/templates/YoutubeItemTemplate.html",
+		"/C/Users/oren/Documents/GitHub/echoes/js/collections/YoutubeSearchResults.js",
+		"/C/Users/oren/Documents/GitHub/echoes/README.md",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/jquery/jquery-1.7.2.min.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/underscore.js",
+		"/C/Users/oren/Documents/GitHub/ExcelImporterChromeExtension/README.md",
+		"/E/Tools/SublimeText2-64/Data/Packages/Modific/Default (Windows).sublime-keymap",
+		"/E/Tools/SublimeText2-64/Data/Packages/User/SublimeServer.sublime-settings",
+		"/E/Tools/SublimeText2-64/Data/Packages/Modific/Modific.sublime-settings",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone.js",
+		"/E/Tools/xampp/htdocs/adir/production/index.html",
+		"/E/Tools/xampp/htdocs/adir/dev/js/LocationsTreeTable.js",
+		"/E/Tools/xampp/htdocs/adir/dev/css/table-view-with-abs-drop.css",
+		"/E/Tools/xampp/htdocs/adir/dev/js/main-with-abs-drop.js",
+		"/E/Tools/SublimeText2-64/Data/Packages/User/snippets/log.sublime-snippet",
+		"/E/Tools/SublimeText2-64/Data/Packages/User/snippets/js-method.sublime-snippet",
+		"/E/Tools/xampp/htdocs/adir/winmerge-compare-project.WinMerge",
+		"/E/Tools/xampp/htdocs/adir/dev/css/dashboard.css",
+		"/E/Tools/SublimeText2-64/Data/Packages/Tortoise/Default (Windows).sublime-keymap",
+		"/E/Tools/SublimeText2-64/Data/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/E/Tools/SublimeText2-64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/E/Tools/xampp/htdocs/adir/production/js/start.js",
+		"/E/Tools/xampp/htdocs/adir/dev/js/treeTable.js",
+		"/E/Tools/xampp/htdocs/adir/dev/js/startDashboard.js",
+		"/E/Tools/xampp/htdocs/adir/dev/css/bootstrap.css",
+		"/E/Tools/xampp/htdocs/adir/dev/dashboard.html",
+		"/E/Tools/xampp/htdocs/adir/production/js/main.js",
+		"/E/Tools/xampp/htdocs/adir/dev/index.html",
+		"/E/Tools/xampp/htdocs/adir/dev/css/table-view.css",
+		"/E/Tools/xampp/htdocs/adir/dev/mock/adminNotes.js",
+		"/E/Tools/xampp/htdocs/adir/dev/js/dashboardConfig.js",
+		"/E/Tools/xampp/htdocs/adir/production/dashboard.html",
+		"/E/Tools/xampp/htdocs/adir/dev/js/main.js",
+		"/E/Tools/xampp/htdocs/adir/dev/js/jquery-ui.js",
+		"/E/Tools/xampp/htdocs/adir/dev/js/jquery.min.js",
+		"/E/Tools/SublimeText2-64/Data/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/E/Tools/SublimeText2-64/Data/Packages/User/snippets/css3-border-radius.sublime-snippet",
+		"/E/temp/FireFoxDownloads/bootstrap/css/bootstrap.css",
+		"/E/Tools/xampp/htdocs/adir/production/js/LocationsTreeTable.js",
+		"/E/Tools/xampp/htdocs/adir/dev/js/start.js",
+		"/E/Tools/xampp/htdocs/adir/dev/docs/docs.js",
+		"/E/Tools/xampp/htdocs/adir/dev/docs/doc.html",
+		"/E/Tools/SublimeText2-64/Data/Packages/JavaScript/JavaScript.tmLanguage",
+		"/E/Tools/xampp/htdocs/adir/js/treeTable.js",
+		"/E/Tools/xampp/htdocs/adir/js/LocationsTreeTable.js",
+		"/E/Tools/xampp/htdocs/adir/index.html",
+		"/E/Tools/xampp/htdocs/adir/js/main.js",
+		"/E/Tools/xampp/htdocs/adir/css/table-view.css",
+		"/E/Tools/xampp/htdocs/adir/js/start.js",
+		"/E/Tools/xampp/htdocs/adir/mock/adminNotes.js",
+		"/E/Tools/xampp/htdocs/adir/production/js/treeTable.js",
+		"/E/Tools/xampp/htdocs/adir/h5bp-html5-boilerplate-1ac32b7/humans.txt",
+		"/E/Tools/xampp/htdocs/adir/js/openTreeTable.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"<open folders>,",
+			"<open folders>,<open folders>",
+			"<open folders>",
+			"D:\\t2k\\lms\\projects\\dtp-war\\src\\main\\webapp\\@@@lms.version@@@\\student\\js",
+			"D:\\t2k\\lms\\projects\\dtp-war\\src\\main\\webapp\\@@@lms.version@@@,*.js,*.jsp",
+			"D:\\t2k\\lms\\projects\\dtp-war\\src\\main\\webapp\\@@@lms.version@@@",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"this",
+			"this.play(",
+			"ul",
+			"validateQuerySearch",
+			"this.modules",
+			"model",
+			"onSearchResultsIndexChange",
+			"model",
+			"onYoutubeSearchResponse",
+			"UserProfileManagerModel",
+			"feedType",
+			"content",
+			"resultsView",
+			"onNewSearch",
+			"setRoute",
+			"getRoute",
+			"get('user')",
+			"appModel",
+			"router",
+			"this",
+			"button",
+			";(",
+			"showHistory",
+			"showExplore",
+			"ContentLayout",
+			"onSelected",
+			"clear",
+			"playlistProvider",
+			"that",
+			"user_data",
+			"height:",
+			"backbone",
+			"\\\\",
+			"/",
+			"Echoes",
+			"getQuery",
+			"/",
+			"\\",
+			"fadeOut",
+			"padding: 10px",
+			"0px 0px 15px rgba(0,0,0,1)",
+			"'storage'",
+			"utils",
+			"Storger",
+			"key",
+			"modules.mediaProvider",
+			"slice",
+			"historyPlaylistData",
+			"search-result-selected",
+			"name",
+			"Youtube",
+			"'Backbone'",
+			"PlayerApp.Views.",
+			"Player",
+			">",
+			"YoutubeItem",
+			"name",
+			"YoutubeSearchResults",
+			"YoutubeResult",
+			"lib",
+			"_",
+			"YoutubeMediaProvider",
+			"\\",
+			"YoutubeMediaProvider",
+			"item",
+			"each(",
+			"each",
+			"events: {",
+			"ul",
+			"}\n",
+			"There are no results in this ",
+			"span",
+			"dropdown-click",
+			"handleOnDropdownClick",
+			"DropdownOptions",
+			"toggleOptions",
+			"dropdown-master",
+			"simpletable =",
+			">\n",
+			"dropdown-click",
+			"handleOnDropdownClick",
+			"dropdown-click",
+			"handleDropdownClick",
+			"dropdown-click",
+			"DropdownWidget.Events.CHANGE",
+			"DropdownWidget",
+			"Views.Header",
+			"index",
+			"all",
+			"DropdownWidget",
+			"dropdown",
+			"pagination-cont",
+			"source",
+			"rowsViews",
+			"onUpdate",
+			"LocationsHeader",
+			"simpletable",
+			"hasDropdown",
+			"simpletabl",
+			"20",
+			"<div class=\"span6 table-wrapper\">",
+			"\"></",
+			" style=\"height: 200px\"",
+			"drawChart",
+			"title",
+			"drawChart",
+			"container",
+			"span6",
+			"	",
+			"3px",
+			"dashboard-stat",
+			"span2",
+			"1\">",
+			"dashboard-stat",
+			"span3",
+			"span2",
+			"span5",
+			"::",
+			"Data\"",
+			"topCards",
+			"topAds",
+			"var topAds = TableWidget.createBox({\n		selector: \"#dashboard\",\n		title: \"Top 10 Coupons\",\n		model: top10AdsData,\n		selected: function(data) {\n			console.log(data);\n		}\n	});\n	topAds.render();",
+			"topCoupons",
+			"topUsers",
+			"\"Lorem",
+			"lorem",
+			"Lorem",
+			"]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Views.OpenTreeTable",
+			"new",
+			"addCommentPlaceholder",
+			"{ artist: \"John Mayall\", trackNumber",
+			" },",
+			"{ iconPath",
+			"trainScrollerView",
+			"data",
+			"\\t",
+			"items",
+			"\\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 5718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2583,
+								2583
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 280.0,
+						"translation.y": 903.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/views/player_app.js",
+					"settings":
+					{
+						"buffer_size": 1416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1019,
+								1019
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 96.0,
+						"translation.y": 282.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/models/youtube_media_provider.js",
+					"settings":
+					{
+						"buffer_size": 1262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 274.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/routers/app_router.js",
+					"settings":
+					{
+						"buffer_size": 1272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "js/models/player_app.js",
+					"settings":
+					{
+						"buffer_size": 2460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 122.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/views/youtube_player.js",
+					"settings":
+					{
+						"buffer_size": 3093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								386,
+								386
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 10102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5972,
+								5972
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/views/media_search.js",
+					"settings":
+					{
+						"buffer_size": 1034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "js/views/feed_filter.js",
+					"settings":
+					{
+						"buffer_size": 791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.49375,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 269.0
+	},
+	"output.sftp":
+	{
+		"height": 130.0
+	},
+	"output.vcs":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"feed",
+				"js/views/feed_filter.js"
+			],
+			[
+				"medisea",
+				"js/views/media_search.js"
+			],
+			[
+				"style",
+				"css/style.css"
+			],
+			[
+				"youplayer",
+				"js/views/youtube_player.js"
+			],
+			[
+				"views/youtube_playlists_results",
+				"js/views/youtube_playlists_results.js"
+			],
+			[
+				"views/youtube_search_results",
+				"js/views/youtube_search_results.js"
+			],
+			[
+				"youtube_search_results",
+				"js/collections/youtube_search_results.js"
+			],
+			[
+				"viyouite",
+				"js/views/youtube_item.js"
+			],
+			[
+				"viewplaylist",
+				"js/views/youtube_playlist_item.js"
+			],
+			[
+				"templa",
+				"templates/youtube_playlist_item.html"
+			],
+			[
+				"modeuser",
+				"js/models/user_profile_manager.js"
+			],
+			[
+				"back",
+				"js/libs/backbone/backbone.js"
+			],
+			[
+				"vimedse",
+				"js/views/media_search.js"
+			],
+			[
+				"medise",
+				"js/models/media_search.js"
+			],
+			[
+				"resultna",
+				"js/views/results_navigation.js"
+			],
+			[
+				"mediprov",
+				"js/models/youtube_media_provider.js"
+			],
+			[
+				"conten",
+				"js/views/content_layout.js"
+			],
+			[
+				"medipvid",
+				"js/models/youtube_media_provider.js"
+			],
+			[
+				"collecvi",
+				"js/libs/backbone/backbone.collection_view.js"
+			],
+			[
+				"viewsearchre",
+				"js/views/youtube_search_results.js"
+			],
+			[
+				"viplaylis",
+				"js/views/youtube_playlists_provider.js"
+			],
+			[
+				"userpor",
+				"js/views/user_profile_manager.js"
+			],
+			[
+				"modeplayrap",
+				"js/models/player_app.js"
+			],
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"visear",
+				"js/views/media_search.js"
+			],
+			[
+				"vifil",
+				"js/views/feed_filter.js"
+			],
+			[
+				"zepto",
+				"js/libs/zepto/zepto.js"
+			],
+			[
+				"req",
+				"js/libs/require/require.js"
+			],
+			[
+				"router",
+				"js/routers/app_router.js"
+			],
+			[
+				"results",
+				"js/views/results_navigation.js"
+			],
+			[
+				"playapp",
+				"js/views/player_app.js"
+			],
+			[
+				"youtupla",
+				"js/views/youtube_player.js"
+			],
+			[
+				"viewsprof",
+				"js/views/user_profile_manager.js"
+			],
+			[
+				"playlists",
+				"js/collections/youtube_playlists_provider.js"
+			],
+			[
+				"playap",
+				"js/views/player_app.js"
+			],
+			[
+				"viewyoutueit",
+				"js/views/youtube_item.js"
+			],
+			[
+				"medipr",
+				"js/models/youtube_media_provider.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"scrip",
+				"js/script.js"
+			],
+			[
+				"jquery",
+				"js/libs/jquery/jquery.js"
+			],
+			[
+				"youtubese",
+				"js/views/youtube_search_results.js"
+			],
+			[
+				"outer",
+				"js/routers/app_router.js"
+			],
+			[
+				"moderni",
+				"js/libs/modernizr/modernizr-2.5.3.min.js"
+			],
+			[
+				"indexh",
+				"index.html"
+			],
+			[
+				"saf",
+				"js/libs/backbone/backbone.safe.js"
+			],
+			[
+				"backbone",
+				"js/libs/backbone/backbone.js"
+			],
+			[
+				"local",
+				"js/libs/backbone/backbone-localstorage.js"
+			],
+			[
+				"safe",
+				"js/libs/backbone/backbone.safe.js"
+			],
+			[
+				"basa",
+				"js/libs/backbone/backbone.safe.js"
+			],
+			[
+				"lo",
+				"js/libs/backbone/backbone-localstorage.js"
+			],
+			[
+				"offli",
+				"js/libs/backbone/backbone_offline.js"
+			],
+			[
+				"histor",
+				"js/collections/history_playlist.js"
+			],
+			[
+				"util",
+				"js/libs/utils.js"
+			],
+			[
+				"backbon",
+				"js/libs/backbone/backbone.js"
+			],
+			[
+				"mai",
+				"js/main.js"
+			],
+			[
+				"meid",
+				"js/models/youtube_media_provider.js"
+			],
+			[
+				"modelsmed",
+				"js/models/youtube_media_provider.js"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"undesc",
+				"js/libs/underscore.js"
+			],
+			[
+				"inde",
+				"production/index.html"
+			],
+			[
+				"treetab",
+				"dev/js/treeTable.js"
+			],
+			[
+				"location",
+				"dev/js/LocationsTreeTable.js"
+			],
+			[
+				"indeht",
+				"dev/index.html"
+			],
+			[
+				"admino",
+				"dev/mock/adminNotes.js"
+			],
+			[
+				"tre",
+				"dev/js/treeTable.js"
+			],
+			[
+				"tablevie",
+				"dev/css/table-view.css"
+			],
+			[
+				"start",
+				"production/js/start.js"
+			],
+			[
+				"table",
+				"dev/js/LocationsTreeTable.js"
+			],
+			[
+				"tree",
+				"dev/js/treeTable.js"
+			],
+			[
+				"ine",
+				"dev/index.html"
+			],
+			[
+				"dash",
+				"dev/dashboard.html"
+			],
+			[
+				"dashbocss",
+				"dev/css/dashboard.css"
+			],
+			[
+				"jq",
+				"dev/js/jquery-ui.js"
+			],
+			[
+				"admi",
+				"dev/mock/adminNotes.js"
+			],
+			[
+				"mock",
+				"dev/mock/adminNotes.js"
+			],
+			[
+				"dashbo",
+				"dev/dashboard.html"
+			],
+			[
+				"loca",
+				"production/js/LocationsTreeTable.js"
+			],
+			[
+				"css",
+				"dev/css/table-view.css"
+			],
+			[
+				"docs",
+				"dev/docs/doc.html"
+			],
+			[
+				"star",
+				"production/js/start.js"
+			],
+			[
+				"admin",
+				"mock/adminNotes.js"
+			],
+			[
+				"mainjs",
+				"js/main.js"
+			],
+			[
+				"locaion",
+				"js/LocationsTreeTable.js"
+			],
+			[
+				"docht",
+				"js/doc.html"
+			],
+			[
+				"do",
+				"js/docs.js"
+			],
+			[
+				"boo",
+				"css/bootstrap.css"
+			],
+			[
+				"tablcss",
+				"css/table-view.css"
+			],
+			[
+				"unders",
+				"js/underscore.js"
+			],
+			[
+				"tabc",
+				"css/table-view.css"
+			],
+			[
+				"scrol",
+				"js/aplweb.scrollbars.js"
+			],
+			[
+				"tiny",
+				"js/jquery.tinyscrollbar.js"
+			],
+			[
+				"bac",
+				"js/backbone.js"
+			],
+			[
+				"aiview",
+				"js/components/aiView/aiView.js"
+			],
+			[
+				"aphemod",
+				"js/components/applicationHeader/models/applicationHeader_model.js"
+			],
+			[
+				"page",
+				"js/common/pagging/pages.js"
+			],
+			[
+				"aphea",
+				"js/components/applicationHeader/applicationHeader.js"
+			],
+			[
+				"aphe",
+				"js/components/applicationHeader/applicationHeader.js"
+			],
+			[
+				"icons",
+				"css/icon.css"
+			],
+			[
+				"booold",
+				"css/bootstrap_old.css"
+			],
+			[
+				"booover",
+				"css/bootstrap-override.css"
+			],
+			[
+				"apheadmode",
+				"js/components/applicationHeader/models/applicationHeader_model.js"
+			],
+			[
+				"dialo",
+				"js/components/dialog/dialog.js"
+			],
+			[
+				"galle",
+				"testData/GalleryItem.json"
+			],
+			[
+				"compo",
+				"css/components.css"
+			],
+			[
+				"bas",
+				"js/common/players/BasePlayerAPI.js"
+			],
+			[
+				"jqui",
+				"js/libs/jquery/jquery-ui.custom.js"
+			],
+			[
+				"jslms",
+				"js/common/players/JSLmsAPI.js"
+			],
+			[
+				"styl",
+				"css/style.css"
+			],
+			[
+				"bootover",
+				"css/bootstrap-override.css"
+			],
+			[
+				"pages.",
+				"js/common/pagging/pages.js"
+			],
+			[
+				"leshis",
+				"js/components/lessonsHistory/lessonsController.js"
+			],
+			[
+				"aphead",
+				"js/components/applicationHeader/models/applicationHeader_model.js"
+			],
+			[
+				"jslm",
+				"js/common/players/JSLmsAPI.js"
+			],
+			[
+				"boots",
+				"css/bootstrap-override.css"
+			],
+			[
+				"applha",
+				"js/components/applicationHeader/applicationHeader.js"
+			],
+			[
+				"galjson",
+				"testData/GalleryItem.json"
+			],
+			[
+				"bootov",
+				"css/bootstrap-override.css"
+			],
+			[
+				"galiteview",
+				"js/components/galleryItemView/views/galleryItemView_view.js"
+			],
+			[
+				"sevice",
+				"js/services.js"
+			],
+			[
+				"route",
+				"js/student_router.js"
+			],
+			[
+				"sturout",
+				"js/student_router.js"
+			],
+			[
+				"commentpa",
+				"js/widgets/CommentsPanel/views/CommentsPanelView.js"
+			],
+			[
+				"modu",
+				"js/modules.js"
+			],
+			[
+				"commodel",
+				"js/widgets/CommentsPanel/models/CommentItemModel.js"
+			],
+			[
+				"commhtml",
+				"js/widgets/CommentsPanel/templates/CommentsPanel_template.html"
+			],
+			[
+				"actmodel",
+				"js/widgets/ActivityItem/models/ActivityItemModel.js"
+			],
+			[
+				"galitevi",
+				"js/components/galleryItemView/views/galleryItemView_view.js"
+			],
+			[
+				"html",
+				"js/components/applicationHeader/templates/navigation.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/oren/Documents/GitHub/SublimeProjects/GDG-Backbone-101.sublime-project"
+			],
+			[
+				"echoe",
+				"/C/Users/oren/Documents/GitHub/echoes/echoes.sublime-project"
+			],
+			[
+				"gd",
+				"/C/Users/oren/Documents/GitHub/GDG-Backbone-101/GDG-Backbone-101.sublime-project"
+			],
+			[
+				"oop",
+				"/E/Tools/xampp/htdocs/SublimeProjects/oopjs-talk.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true
+}
