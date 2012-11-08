@@ -4,28 +4,8 @@
 		"selected_items":
 		[
 			[
-				"medi",
-				"mediaData"
-			],
-			[
-				"pla",
-				"playlistProvider"
-			],
-			[
-				"resunav",
-				"resultsNav"
-			],
-			[
-				"res",
-				"resultsView"
-			],
-			[
-				"Yout",
-				"YoutubePlayer"
-			],
-			[
-				"Youtu",
-				"YoutubeMediaProvider"
+				"attrs",
+				"changedAttributes"
 			],
 			[
 				"jqu",
@@ -56,6 +36,10 @@
 				"mediaProvider"
 			],
 			[
+				"medi",
+				"mediaProvider"
+			],
+			[
 				"resna",
 				"resultsNav"
 			],
@@ -70,6 +54,10 @@
 			[
 				"View",
 				"views"
+			],
+			[
+				"Youtu",
+				"YoutubeSearchResults"
 			],
 			[
 				"Com",
@@ -514,24 +502,44 @@
 			[
 				"overflow",
 				"overflow-y"
+			],
+			[
+				"segmen",
+				"segmentNavigation"
+			],
+			[
+				"navIt",
+				"navItemDisabledClassName"
+			],
+			[
+				"nextClas",
+				"nextClassName"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "js/config.js",
 			"settings":
 			{
-				"buffer_size": 5718,
+				"buffer_size": 181616,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/views/player_app.js",
+			"file": "js/models/user_profile_manager.js",
 			"settings":
 			{
-				"buffer_size": 1416,
+				"buffer_size": 604,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/views/user_profile_manager.js",
+			"settings":
+			{
+				"buffer_size": 843,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,55 +547,15 @@
 			"file": "js/models/youtube_media_provider.js",
 			"settings":
 			{
-				"buffer_size": 1262,
+				"buffer_size": 894,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/routers/app_router.js",
+			"file": "js/views/content_layout.js",
 			"settings":
 			{
-				"buffer_size": 1272,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/models/player_app.js",
-			"settings":
-			{
-				"buffer_size": 2480,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/views/youtube_player.js",
-			"settings":
-			{
-				"buffer_size": 3093,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 10102,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/views/media_search.js",
-			"settings":
-			{
-				"buffer_size": 1034,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/views/feed_filter.js",
-			"settings":
-			{
-				"buffer_size": 791,
+				"buffer_size": 1149,
 				"line_ending": "Windows"
 			}
 		}
@@ -595,19 +563,15 @@
 	"build_system": "Packages/User/RequireJS.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
-				"star",
-				"SublimeServer: Start SublimeServer"
-			],
-			[
-				"pa dis",
+				"dis",
 				"Package Control: Disable Package"
 			],
 			[
-				"pacenabl",
+				"pac enab",
 				"Package Control: Enable Package"
 			],
 			[
@@ -619,11 +583,19 @@
 				"Package Control: Disable Package"
 			],
 			[
-				"wra",
-				"Word Wrap: Toggle"
+				"pac ena",
+				"Package Control: Enable Package"
 			],
 			[
-				"pac is",
+				"prede",
+				"Preferences: Settings - Default"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"pac ins",
 				"Package Control: Install Package"
 			],
 			[
@@ -631,24 +603,8 @@
 				"Package Control: Discover Packages"
 			],
 			[
-				"paclis",
-				"Package Control: List Packages"
-			],
-			[
-				"pac insta",
-				"Package Control: Install Package"
-			],
-			[
-				"ftp",
-				"SFTP: Browse Server…"
-			],
-			[
-				"syn javasc",
-				"Set Syntax: JavaScript"
-			],
-			[
-				"form",
-				"Format: Javascript"
+				"star",
+				"SublimeServer: Start SublimeServer"
 			],
 			[
 				"stop",
@@ -731,8 +687,8 @@
 				"Package Control: List Packages"
 			],
 			[
-				"pac ins",
-				"Package Control: Install Package"
+				"syn javasc",
+				"Set Syntax: JavaScript"
 			],
 			[
 				"html",
@@ -749,10 +705,6 @@
 			[
 				"pack di",
 				"Package Control: Disable Package"
-			],
-			[
-				"pac ena",
-				"Package Control: Enable Package"
 			],
 			[
 				"openin",
@@ -811,8 +763,16 @@
 				"View: Toggle Open Files in Side Bar"
 			],
 			[
+				"form",
+				"Format: Javascript"
+			],
+			[
 				"pac en",
 				"Package Control: Enable Package"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
 			],
 			[
 				"syn act",
@@ -829,10 +789,6 @@
 			[
 				"PAC DIS",
 				"Package Control: Disable Package"
-			],
-			[
-				"pac enab",
-				"Package Control: Enable Package"
 			],
 			[
 				"pac ne",
@@ -1071,7 +1027,7 @@
 				"Set Syntax: AppleScript"
 			]
 		],
-		"width": 416.0
+		"width": 402.0
 	},
 	"console":
 	{
@@ -1088,43 +1044,20 @@
 	},
 	"file_history":
 	[
-		"/C/Users/oren/Documents/GitHub/echoes/js/models/youtube_media_provider.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_playlists_results.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_search_results.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/player_app.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/views/results_navigation.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/views/content_layout.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.views_manager.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_playlist_item.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_item.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/views/media_search.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/collections/youtube_search_results.js",
-		"/C/Users/oren/Documents/GitHub/echoes/templates/youtube_playlist_item.html",
-		"/C/Users/oren/Documents/GitHub/echoes/js/main.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/models/user_profile_manager.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/views/user_profile_manager.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/views/feed_filter.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/models/media_search.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.collection_view.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_playlists_provider.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/config.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/results_navigation.js",
+		"/C/Users/oren/Documents/GitHub/echoes/templates/results_navigation.html",
+		"/E/Tools/SublimeText2-64/Data/Packages/User/Preferences.sublime-settings",
+		"/E/Tools/SublimeText2-64/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/oren/Documents/GitHub/build/r.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/libs/require/require.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/libs/zepto/zepto.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/collections/youtube_playlists_provider.js",
-		"/C/Users/oren/Documents/GitHub/echoes/css/style.css",
-		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_player.js",
-		"/C/Users/oren/AppData/Local/Temp/fz3temp-1/profile.php",
-		"/C/Users/oren/AppData/Local/Temp/fz3temp-1/login.php",
-		"/C/Users/oren/AppData/Local/Temp/fz3temp-1/error_log",
-		"/C/Users/oren/AppData/Local/Temp/fz3temp-1/index.php",
-		"/C/users/oren/appdata/local/temp/sublime-sftp-browse-1351921125/orizens-public_html/public_html/tools/services/test.php",
-		"/C/users/oren/appdata/local/temp/sublime-sftp-browse-1351921244/orizens-public_html/public_html/tools/services/examples/social_hub/profile.php",
-		"/C/Users/oren/Documents/GitHub/echoes/index.html",
-		"/C/Users/oren/Documents/GitHub/echoes/notes/sessions.txt",
-		"/C/Users/oren/Documents/GitHub/echoes/js/models/scripted.log",
-		"/E/temp/FireFoxDownloads/scripted_v0.2.0/scripted/play-area/tools/dependency_playing.js",
+		"/C/Users/oren/Documents/GitHub/SublimeProjects/GDG-Backbone-101.sublime-project",
 		"/E/Tools/SublimeText2-64/Data/Packages/User/RequireJS.sublime-build",
+		"/C/Users/oren/Documents/GitHub/echoes/js/main.js",
 		"/C/Users/oren/Documents/GitHub/echoes/build/app.build.js",
+		"/C/Users/oren/Documents/GitHub/echoes/css/style.css",
+		"/C/Users/oren/Documents/GitHub/echoes/index.html",
 		"/C/Users/oren/Documents/GitHub/build/echoes-production/js/main.js",
 		"/C/Users/oren/Documents/GitHub/build/echoes-production/css/style.css",
 		"/E/Tools/xampp/htdocs/SublimeProjects/echoes.sublime-workspace",
@@ -1133,12 +1066,15 @@
 		"/C/Users/oren/Documents/GitHub/echoes/js/start.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/script.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/libs/experiments.txt",
-		"/C/Users/oren/Documents/GitHub/echoes/templates/results_navigation.html",
 		"/E/Tools/SublimeText2-64/Data/Packages/User/Modific.sublime-settings",
 		"/E/temp/FireFoxDownloads/Tor Browser/Data/Tor/torrc",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_search_results.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/routers/app_router.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/collections/history_playlist.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/libs/utils.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/media_search.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/media_search.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/libs/jquery/jquery.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/libs/modernizr/modernizr-2.5.3.min.js",
 		"/C/Users/oren/Desktop/adb.bat",
@@ -1150,9 +1086,11 @@
 		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone-localstorage.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/libs/backbone/backbone_offline.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/views/player_app.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/models/youtube_media_provider.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/models/history_playlist.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/collections/youtube_search_results.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/models/youtube_item.js",
-		"/C/Users/oren/Documents/GitHub/echoes/js/models/results_navigation.js",
+		"/C/Users/oren/Documents/GitHub/echoes/js/views/youtube_item.js",
 		"/C/Users/oren/Documents/GitHub/echoes/templates/youtube_item.html",
 		"/C/Users/oren/Documents/GitHub/echoes/js/views/YoutubeSearchResultsView.js",
 		"/C/Users/oren/Documents/GitHub/echoes/js/views/YoutubeItemView.js",
@@ -1215,7 +1153,25 @@
 		"/E/Tools/xampp/htdocs/adir/mock/adminNotes.js",
 		"/E/Tools/xampp/htdocs/adir/production/js/treeTable.js",
 		"/E/Tools/xampp/htdocs/adir/h5bp-html5-boilerplate-1ac32b7/humans.txt",
-		"/E/Tools/xampp/htdocs/adir/js/openTreeTable.js"
+		"/E/Tools/xampp/htdocs/adir/js/openTreeTable.js",
+		"/C/users/oren/appdata/local/temp/sublime-sftp-browse-1339876628/oz/public_html/wp/wp-content/themes/modernist/style.css",
+		"/E/Tools/xampp/htdocs/adir/js/docs.js",
+		"/E/Tools/xampp/htdocs/adir/js/doc.html",
+		"/E/Tools/xampp/htdocs/adir/js/backbone.js",
+		"/E/Tools/xampp/htdocs/adir/css/bootstrap.css",
+		"/E/Tools/xampp/htdocs/adir/js/underscore.js",
+		"/E/Tools/SublimeText2/Data/Packages/Modific/Modific.sublime-settings",
+		"/E/Tools/SublimeText2/Data/Packages/User/Modific.sublime-settings",
+		"/E/Tools/xampp/htdocs/adir/production/mock/adminNotes.js",
+		"/E/Tools/SublimeText2/Data/Packages/Tortoise/Tortoise.sublime-settings",
+		"/D/Tools/xampp/htdocs/adir/mock/adminNotes.js",
+		"/D/Tools/xampp/htdocs/adir/mock/json.txt",
+		"/D/Tools/xampp/htdocs/adir/css/table-view.css",
+		"/D/Tools/xampp/htdocs/adir/js/main.js",
+		"/D/Tools/xampp/htdocs/adir/css/bootstrap.css",
+		"/D/Tools/xampp/htdocs/adir/js/aplweb.scrollbars.js",
+		"/D/temp/FireFoxDownloads/js-scrollbars-v2/demo.html",
+		"/D/Tools/xampp/htdocs/adir/js/treeTable.js"
 	],
 	"find":
 	{
@@ -1241,38 +1197,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"< HEAD",
-			"this",
-			"this.play(",
-			"ul",
-			"validateQuerySearch",
-			"this.modules",
-			"model",
-			"onSearchResultsIndexChange",
-			"model",
-			"onYoutubeSearchResponse",
-			"UserProfileManagerModel",
-			"feedType",
-			"content",
-			"resultsView",
-			"onNewSearch",
-			"setRoute",
-			"getRoute",
-			"get('user')",
-			"appModel",
-			"router",
-			"this",
-			"button",
-			";(",
-			"showHistory",
-			"showExplore",
-			"ContentLayout",
-			"onSelected",
-			"clear",
-			"playlistProvider",
-			"that",
-			"user_data",
-			"height:",
+			"theme",
+			"set('layout')",
+			"get('layout')",
+			"bold_folder_labels",
+			"bold",
 			"backbone",
 			"\\\\",
 			"/",
@@ -1368,7 +1297,34 @@
 			"topUsers",
 			"\"Lorem",
 			"lorem",
-			"Lorem"
+			"Lorem",
+			"]",
+			",]",
+			"]",
+			"\"my Link\"",
+			"{url: \"http://www.ispumlorem.com\", label: \"my Link\"}",
+			"\"124\", 564, \"another text\"",
+			"tableDashboardData",
+			"·         ",
+			"singlel",
+			"LocationsRow.Events.CHANGE",
+			"ROW_STATUS_CHANGED",
+			"CHANGE",
+			"DropdownWidget",
+			"TABLE_ROW_SELECTED",
+			"onActionClick",
+			"TreeTableRow",
+			"clickable",
+			"model",
+			"LocationStatusWidget",
+			"cehckboxed",
+			"options",
+			"= ",
+			"hasDropdowns",
+			"has",
+			".",
+			".has",
+			"this"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1397,15 +1353,15 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "js/config.js",
 					"settings":
 					{
-						"buffer_size": 5718,
+						"buffer_size": 181616,
 						"regions":
 						{
 						},
@@ -1421,22 +1377,21 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 280.0,
-						"translation.y": 903.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/views/player_app.js",
+					"file": "js/models/user_profile_manager.js",
 					"settings":
 					{
-						"buffer_size": 1416,
+						"buffer_size": 604,
 						"regions":
 						{
 						},
@@ -1455,18 +1410,18 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 96.0,
-						"translation.y": 282.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "js/models/youtube_media_provider.js",
+					"file": "js/views/user_profile_manager.js",
 					"settings":
 					{
-						"buffer_size": 1262,
+						"buffer_size": 843,
 						"regions":
 						{
 						},
@@ -1486,25 +1441,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 274.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "js/routers/app_router.js",
+					"file": "js/models/youtube_media_provider.js",
 					"settings":
 					{
-						"buffer_size": 1272,
+						"buffer_size": 894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								325,
-								325
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1520,49 +1475,13 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 4,
-					"file": "js/models/player_app.js",
+					"file": "js/views/content_layout.js",
 					"settings":
 					{
-						"buffer_size": 2480,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								912,
-								912
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 122.0,
-						"translation.y": 282.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "js/views/youtube_player.js",
-					"settings":
-					{
-						"buffer_size": 3093,
+						"buffer_size": 1149,
 						"regions":
 						{
 						},
@@ -1571,96 +1490,6 @@
 							[
 								0,
 								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/style.css",
-					"settings":
-					{
-						"buffer_size": 10102,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "js/views/media_search.js",
-					"settings":
-					{
-						"buffer_size": 1034,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "js/views/feed_filter.js",
-					"settings":
-					{
-						"buffer_size": 791,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								252,
-								252
 							]
 						],
 						"settings":
@@ -1697,18 +1526,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.49375,
 			1.0
 		],
 		"rows":
@@ -1741,164 +1563,48 @@
 		"selected_items":
 		[
 			[
-				"medipro",
-				"js/models/youtube_media_provider.js"
+				"results_navigation",
+				"js/models/results_navigation.js"
 			],
 			[
-				"feed",
-				"js/views/feed_filter.js"
-			],
-			[
-				"medisea",
-				"js/views/media_search.js"
-			],
-			[
-				"style",
-				"css/style.css"
-			],
-			[
-				"youplayer",
-				"js/views/youtube_player.js"
-			],
-			[
-				"views/youtube_playlists_results",
-				"js/views/youtube_playlists_results.js"
-			],
-			[
-				"views/youtube_search_results",
-				"js/views/youtube_search_results.js"
-			],
-			[
-				"youtube_search_results",
-				"js/collections/youtube_search_results.js"
-			],
-			[
-				"viyouite",
-				"js/views/youtube_item.js"
-			],
-			[
-				"viewplaylist",
-				"js/views/youtube_playlist_item.js"
-			],
-			[
-				"templa",
-				"templates/youtube_playlist_item.html"
-			],
-			[
-				"modeuser",
-				"js/models/user_profile_manager.js"
-			],
-			[
-				"back",
-				"js/libs/backbone/backbone.js"
-			],
-			[
-				"vimedse",
-				"js/views/media_search.js"
-			],
-			[
-				"medise",
-				"js/models/media_search.js"
-			],
-			[
-				"resultna",
-				"js/views/results_navigation.js"
-			],
-			[
-				"mediprov",
-				"js/models/youtube_media_provider.js"
+				"modepla",
+				"js/models/player_app.js"
 			],
 			[
 				"conten",
 				"js/views/content_layout.js"
 			],
 			[
-				"medipvid",
-				"js/models/youtube_media_provider.js"
+				"reuqi",
+				"js/libs/require/require.js"
 			],
 			[
-				"collecvi",
-				"js/libs/backbone/backbone.collection_view.js"
-			],
-			[
-				"viewsearchre",
-				"js/views/youtube_search_results.js"
-			],
-			[
-				"viplaylis",
-				"js/views/youtube_playlists_provider.js"
-			],
-			[
-				"userpor",
+				"viewprofi",
 				"js/views/user_profile_manager.js"
 			],
 			[
-				"modeplayrap",
-				"js/models/player_app.js"
+				"profile",
+				"js/models/user_profile_manager.js"
 			],
 			[
 				"main",
 				"js/main.js"
 			],
 			[
-				"visear",
-				"js/views/media_search.js"
-			],
-			[
-				"vifil",
-				"js/views/feed_filter.js"
-			],
-			[
-				"zepto",
-				"js/libs/zepto/zepto.js"
-			],
-			[
-				"req",
-				"js/libs/require/require.js"
-			],
-			[
-				"router",
-				"js/routers/app_router.js"
-			],
-			[
-				"results",
-				"js/views/results_navigation.js"
-			],
-			[
-				"playapp",
-				"js/views/player_app.js"
-			],
-			[
-				"youtupla",
-				"js/views/youtube_player.js"
-			],
-			[
-				"viewsprof",
-				"js/views/user_profile_manager.js"
-			],
-			[
-				"playlists",
-				"js/collections/youtube_playlists_provider.js"
-			],
-			[
-				"playap",
-				"js/views/player_app.js"
-			],
-			[
-				"viewyoutueit",
-				"js/views/youtube_item.js"
-			],
-			[
-				"medipr",
-				"js/models/youtube_media_provider.js"
-			],
-			[
-				"index",
-				"index.html"
+				"style",
+				"css/style.css"
 			],
 			[
 				"scrip",
 				"js/script.js"
+			],
+			[
+				"templa",
+				"templates/results_navigation.html"
+			],
+			[
+				"back",
+				"js/libs/backbone/backbone.js"
 			],
 			[
 				"jquery",
@@ -1961,6 +1667,10 @@
 				"js/libs/backbone/backbone.js"
 			],
 			[
+				"medise",
+				"js/models/media_search.js"
+			],
+			[
 				"mai",
 				"js/main.js"
 			],
@@ -1982,6 +1692,10 @@
 			],
 			[
 				"inde",
+				"production/index.html"
+			],
+			[
+				"index",
 				"production/index.html"
 			],
 			[
@@ -2189,6 +1903,10 @@
 				"js/components/lessonsHistory/lessonsController.js"
 			],
 			[
+				"router",
+				"js/student_router.js"
+			],
+			[
 				"aphead",
 				"js/components/applicationHeader/models/applicationHeader_model.js"
 			],
@@ -2251,6 +1969,110 @@
 			[
 				"galitevi",
 				"js/components/galleryItemView/views/galleryItemView_view.js"
+			],
+			[
+				"html",
+				"js/components/applicationHeader/templates/navigation.html"
+			],
+			[
+				"actimod",
+				"js/widgets/ActivityItem/models/ActivityItemModel.js"
+			],
+			[
+				"acti",
+				"js/widgets/ActivityItem/views/ActivityItemView.js"
+			],
+			[
+				"datam",
+				"js/common/providers/DataManager.js"
+			],
+			[
+				"scrollmode",
+				"js/components/scroller/models/scroller_model.js"
+			],
+			[
+				"pages",
+				"js/common/pagging/pages.js"
+			],
+			[
+				"studerout",
+				"js/student_router.js"
+			],
+			[
+				"pagem",
+				"js/common/pagging/PageManager.js"
+			],
+			[
+				"compone",
+				"css/components.css"
+			],
+			[
+				"icon",
+				"css/icon.css"
+			],
+			[
+				"json",
+				"testData/GalleryItem.json"
+			],
+			[
+				"galitvi",
+				"js/components/galleryItemView/galleryItemViewController.js"
+			],
+			[
+				"apphevie",
+				"js/components/applicationHeader/views/applicationHeader_view.js"
+			],
+			[
+				"applih",
+				"js/components/applicationHeader/applicationHeader.js"
+			],
+			[
+				"scroview",
+				"js/components/scroller/views/scroller_view.js"
+			],
+			[
+				"sturou",
+				"js/student_router.js"
+			],
+			[
+				"scrollervi",
+				"js/components/scroller/views/scroller_view.js"
+			],
+			[
+				"std",
+				"student.html"
+			],
+			[
+				"apmodel",
+				"js/components/applicationHeader/models/applicationHeader_model.js"
+			],
+			[
+				"apoheamod",
+				"js/components/applicationHeader/models/applicationHeader_model.js"
+			],
+			[
+				"pagema",
+				"js/common/PageManager.js"
+			],
+			[
+				"stude",
+				"js/student_router.js"
+			],
+			[
+				"studrou",
+				"js/student_router.js"
+			],
+			[
+				"trains",
+				"js/components/trainScroller/trainScroller.js"
+			],
+			[
+				"styleg",
+				"js/tests/styleGuides.txt"
+			],
+			[
+				"scrolmod",
+				"js/components/trainScroller/models/trainScroller_model.js"
 			]
 		],
 		"width": 0.0
@@ -2261,11 +2083,7 @@
 		"selected_items":
 		[
 			[
-				"",
-				"/C/Users/oren/Documents/GitHub/SublimeProjects/GDG-Backbone-101.sublime-project"
-			],
-			[
-				"echoe",
+				"echo",
 				"/C/Users/oren/Documents/GitHub/echoes/echoes.sublime-project"
 			],
 			[
@@ -2275,6 +2093,10 @@
 			[
 				"oop",
 				"/E/Tools/xampp/htdocs/SublimeProjects/oopjs-talk.sublime-project"
+			],
+			[
+				"",
+				"/D/t2k/lms/projects/dtp-war/src/main/webapp/@@@lms.version@@@/student/.sublime/student.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -2283,6 +2105,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 251.0,
+	"side_bar_width": 216.0,
 	"status_bar_visible": true
 }
