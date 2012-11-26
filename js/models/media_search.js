@@ -1,1 +1,0 @@
-define(["underscore","backbone","safe"],function(e,t,n){var r=t.Model.extend({defaults:{query:"pink floyd"},safe:"MediaSearch"});return r})

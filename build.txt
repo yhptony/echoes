@@ -31,8 +31,6 @@ js/libs/jquery/jquery.js
 js/libs/bootstrap/bootstrap.js
 js/libs/underscore/underscore.js
 js/libs/backbone/backbone.js
-js/libs/backbone/backbone.safe.js
-js/models/media_search.js
 js/views/media_search.js
 js/views/youtube_player.js
 js/libs/require/text.js
@@ -59,9 +57,11 @@ js/models/youtube_user_playlist_item.js
 js/collections/youtube_playlists_provider.js
 js/views/youtube_playlists_provider.js
 js/views/user_profile_manager.js
+js/libs/backbone/backbone.safe.js
 js/collections/history_playlist.js
 js/views/player_app.js
 js/models/user_profile_manager.js
+js/models/youtube_item_info.js
 js/models/youtube_media_provider.js
 js/models/player_app.js
 js/routers/app_router.js
