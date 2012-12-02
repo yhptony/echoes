@@ -190,9 +190,6 @@ footer p {
 	background-color: rgba(0,0,0,0);
 	
 }
-.well.youtube-item:hover {
-    background-color: rgba(0,0,0,.9);
-}
 .youtube-item .badge.badge-warning {
 	position: absolute;
 	right: 7px;
@@ -242,14 +239,26 @@ footer p {
 	bottom: 5px;
 	width: 80%;
 }
-.youtube-player .btn {
-	width: 100%;
-}
 .youtube-player .progress {
 	position: absolute;
 	left:0;
 	bottom: 0;
 	z-index: 9;
+}
+.youtube-player .dropdown-menu.track-info {
+	width: 300px;
+	overflow: auto;
+	white-space: pre-line;
+	padding: 5px 10px;
+	border-radius: 0;
+	box-shadow: 0 0 5px black;
+	background: rgba(0, 0, 0, .85);
+	color: white;
+	max-height: 250px;
+}
+.youtube-player .current-track-info {
+	padding: 5px;
+	border-right: 1px solid white;
 }
 .ytplayer {
 	z-index: 10;
@@ -271,16 +280,9 @@ footer p {
 	top: 5px;
 	background: transparent url(../img/dark_leather.png);
 }
-.youtube-toolbar a,
-.yt-media-title {
+.youtube-toolbar a {
 	padding: 10px 20px;
 	border-right: 1px solid rgba(255,255,255,.5);
-	float: right;
-}
-.yt-media-title {
-	padding: 5px 20px;
-	color: white;
-	margin: 0;
 }
 .hide-player {
 	display: none;
@@ -462,8 +464,18 @@ footer p {
 		top: 0;
 	}
 }
+@media (min-width: 1000px) {
+	.well.youtube-item:hover {
+	
+	    background-color: rgba(0,0,0,.9);
+	}
+}
 @media (min-width: 1200px) {
 	.row-fluid .span3 {
 		width: 24.9%;
+	}
+	.well.youtube-item:hover {
+	
+	    background-color: rgba(0,0,0,.9);
 	}
 }
