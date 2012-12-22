@@ -245,7 +245,8 @@ footer p {
 	bottom: 0;
 	z-index: 9;
 }
-.youtube-player .dropdown-menu.track-info {
+.youtube-player .dropdown-menu.track-info,
+.youtube-player .dropdown-menu.playlist-info {
 	width: 300px;
 	overflow: auto;
 	white-space: pre-line;
@@ -339,6 +340,10 @@ footer p {
 	height: 20px;
 	background-size: cover;
 	background-position: 0 0;
+}
+.playlist-info a {
+	color: white;
+	border: none;
 }
 .wood body {
 	background: url(../img/tileable_wood_texture.png);

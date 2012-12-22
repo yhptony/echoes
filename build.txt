@@ -63,6 +63,7 @@ js/views/player_app.js
 js/models/user_profile_manager.js
 js/models/youtube_item_info.js
 js/models/youtube_media_provider.js
+js/models/youtube_profile_service.js
 js/models/player_app.js
 js/routers/app_router.js
 js/main.js
