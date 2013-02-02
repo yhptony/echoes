@@ -21,6 +21,10 @@ css/bootstrap.min.css
 css/bootstrap-responsive.min.css
 css/style.css
 
+css/vanilla.css
+----------------
+css/vanilla.css
+
 test/lib/jasmine-1.2.0/jasmine.css
 ----------------
 test/lib/jasmine-1.2.0/jasmine.css
