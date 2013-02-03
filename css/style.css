@@ -211,6 +211,7 @@ footer p {
 }
 .well.youtube-item:hover a{
    box-shadow: 2px 2px 8px rgba(0,0,0, .6);
+   -webkit-transform: translate3d(-1px, -1px, 0);
 }
 .youtube-item .badge.badge-warning {
 	position: absolute;
@@ -240,6 +241,17 @@ footer p {
 }
 .youtube-item:hover .title {
 	overflow: hidden;
+}
+.youtube-item .item-is-playing {
+	display: none;
+	position: absolute;
+	top: 7px;
+}
+.youtube-item .item-is-playing i {
+	margin: 2px 4px 0 0;
+}
+.youtube-item.is-playing .item-is-playing {
+	display: block;
 }
 .youtube-item .thumbnail {
 	overflow: hidden;
@@ -348,15 +360,14 @@ footer p {
 .navbar .youtube-toolbar .nav .divider-vertical {
 	margin: 0;
 }
-.navbar .youtube-toolbar .nav > li > a,
 .youtube-toolbar li > button {
 	padding: 10px 20px;
 	box-shadow: inset 0 0 0 #000;
 	border: none;
 	background: transparent;
 }
-.navbar .youtube-toolbar .nav > li > a:hover,
-.navbar .youtube-toolbar .nav > li > button:hover {
+.navbar .youtube-toolbar .nav > li > button:hover,
+.show-youtube-player .show-player {
 	border-bottom: 4px solid #49afcd;
 	padding: 8px 20px;
 	box-shadow: inset 0 0 8px #000;
@@ -480,6 +491,7 @@ footer p {
 	box-shadow: 0px 1px 2px rgba(0,0,0,.3);
 	font-family: OpenSansCondLight;
 	text-decoration: none;
+	-webkit-transform: translate3d(0px, 0px, 0);
 }
 .wood .youtube-item .add-to-playlists ul {
 	font-size: 12px;

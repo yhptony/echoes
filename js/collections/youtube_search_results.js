@@ -1,1 +1,0 @@
-define(["underscore","backbone","models/youtube_item"],function(e,t,n){var r=t.Collection.extend({model:n});return r})
