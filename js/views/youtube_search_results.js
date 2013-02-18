@@ -1,1 +1,0 @@
-define(["jquery","underscore","backbone","views/youtube_item","collections/youtube_search_results","collectionView"],function(e,t,n,r,i,s){var o=s.extend({tagName:"ul",className:"clearfix unstyled",collection:i,view:r,broadcasts:{"media-clicked":"onSelected"},onSelected:function(e){this.trigger("search-result-selected",e)}});return o})
