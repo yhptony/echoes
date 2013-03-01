@@ -54,7 +54,6 @@ js/libs/bootstrap/bootstrap.js
 js/libs/underscore/underscore.js
 js/libs/backbone/backbone.js
 js/libs/backbone/backbone.safe.js
-js/libs/utils.js
 js/views/media_search.js
 js/views/youtube/track_info.js
 js/views/youtube/playlist_info.js
@@ -83,6 +82,7 @@ js/models/youtube_user_playlist_item.js
 js/collections/youtube_playlists_provider.js
 js/views/youtube_playlists_provider.js
 js/views/user_profile_manager.js
+js/libs/utils.js
 js/collections/history_playlist.js
 js/views/player_app.js
 js/models/user_profile_manager.js
