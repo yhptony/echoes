@@ -1,0 +1,3028 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dropd",
+				"dropdown-menu"
+			],
+			[
+				"slide",
+				"slideDownFromTop"
+			],
+			[
+				"tog",
+				"toggleBackdrop"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"class",
+				"classState"
+			],
+			[
+				"boot",
+				"bootstrap-zepto"
+			],
+			[
+				"refre",
+				"refreshItems"
+			],
+			[
+				"Coll",
+				"CollaborationItem"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"stud",
+				"studyclassId"
+			],
+			[
+				"Col",
+				"CollaborationItem"
+			],
+			[
+				"Work",
+				"WorkspaceModel"
+			],
+			[
+				"flex",
+				"flex-container-vertical"
+			],
+			[
+				"Conten",
+				"ContentToolbarView"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"contai",
+				"container"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"D",
+				"DictionaryModel"
+			],
+			[
+				"Dialo",
+				"DialogModel"
+			],
+			[
+				"Dia",
+				"DialogModel"
+			],
+			[
+				"render",
+				"renderTocByToc"
+			],
+			[
+				"app",
+				"appInitData"
+			],
+			[
+				"modu",
+				"moduleName"
+			],
+			[
+				"cur",
+				"currentResource"
+			],
+			[
+				"card",
+				"cardView"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"bacgr",
+				"background"
+			],
+			[
+				"show",
+				"showCourseView"
+			],
+			[
+				"back",
+				"beforeSend(xhr) - backbone.js"
+			],
+			[
+				"login",
+				"loginTemplate"
+			],
+			[
+				"Form",
+				"FormView"
+			],
+			[
+				"init",
+				"initialize()"
+			],
+			[
+				"Vi",
+				"BaseView"
+			],
+			[
+				"b",
+				"bd	Backbone requirejs Module definition"
+			],
+			[
+				"func",
+				"isFunction"
+			],
+			[
+				"Base",
+				"BaseController"
+			],
+			[
+				"com",
+				"common"
+			],
+			[
+				"student",
+				"studentRouter"
+			],
+			[
+				"exclu",
+				"excludedEvent"
+			],
+			[
+				"dial",
+				"dialogParams"
+			],
+			[
+				"Appl",
+				"ApplicationEvents"
+			],
+			[
+				"open",
+				"openDialogsArray"
+			],
+			[
+				"isValid",
+				"isValidAiModel"
+			],
+			[
+				"dialo",
+				"dialogId"
+			],
+			[
+				"emoti",
+				"emoticonsUrl"
+			],
+			[
+				"modal",
+				"modal-header"
+			],
+			[
+				"dia",
+				"dialogParams"
+			],
+			[
+				"method",
+				"methods"
+			],
+			[
+				"loca",
+				"locationX"
+			],
+			[
+				"train",
+				"trainPosition"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"loc",
+				"localStorage"
+			],
+			[
+				"tra",
+				"trainScroller"
+			],
+			[
+				"scrol",
+				"scrollerController"
+			],
+			[
+				"toolbar",
+				"toolbarConfiguration"
+			],
+			[
+				"tol",
+				"toolbarConfiguration"
+			],
+			[
+				"toolbcon",
+				"toolbarConfiguration"
+			],
+			[
+				"onComm",
+				"onCommentDeleted"
+			],
+			[
+				"getGal",
+				"getGalleryItemName"
+			],
+			[
+				"getAp",
+				"getApproveState"
+			],
+			[
+				"ai",
+				"ai-modes"
+			],
+			[
+				"getga",
+				"getGalleryItemData"
+			],
+			[
+				"getGAlle",
+				"getGalleryItemData"
+			],
+			[
+				"togg",
+				"toggleCommentPlaceholder"
+			],
+			[
+				"attr",
+				"attribute"
+			],
+			[
+				"dis",
+				"disabledAttributes"
+			],
+			[
+				"learnin",
+				"learningActivityArray"
+			],
+			[
+				"wid",
+				"widgetArray"
+			],
+			[
+				"marginlef",
+				"margin-left"
+			],
+			[
+				"phr",
+				"phrasesLabel"
+			],
+			[
+				"Rich",
+				"RichtextEditorView"
+			],
+			[
+				"mytim",
+				"mytimeForm"
+			],
+			[
+				"LA",
+				"LAwrapper"
+			],
+			[
+				"inti",
+				"initialize"
+			],
+			[
+				"left",
+				"leftLimit"
+			],
+			[
+				"activ",
+				"activity-item"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"navIt",
+				"navItemDisabledClassName"
+			],
+			[
+				"segme",
+				"segmentId"
+			],
+			[
+				"navig",
+				"navigation"
+			],
+			[
+				"Acti",
+				"ActivityItemGalleryModel"
+			],
+			[
+				"currentI",
+				"currentItem"
+			],
+			[
+				"text",
+				"textarea-canvas"
+			],
+			[
+				"isPri",
+				"isPrivateComment"
+			],
+			[
+				"Comme",
+				"CommentsPanelView"
+			],
+			[
+				"baclgrou",
+				"background-color"
+			],
+			[
+				"tool",
+				"toolbarButtons"
+			],
+			[
+				"Comm",
+				"CommentsList"
+			],
+			[
+				"Ac",
+				"ActivityItemModel"
+			],
+			[
+				"segmen",
+				"segmentEndTime"
+			],
+			[
+				"getNa",
+				"getNavigationBySegment"
+			],
+			[
+				"displ",
+				"displayName"
+			],
+			[
+				"action",
+				"actionType"
+			],
+			[
+				"ac",
+				"activeClass"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"selc",
+				"selector"
+			],
+			[
+				"acton",
+				"actionType"
+			],
+			[
+				"curren",
+				"currentTarget"
+			],
+			[
+				"selec",
+				"selector"
+			],
+			[
+				"sort",
+				"sort-by-student-name"
+			],
+			[
+				"sortB",
+				"sort-by-activity-name"
+			],
+			[
+				"fil",
+				"filterType"
+			],
+			[
+				"handl",
+				"handleGalleryFilter"
+			],
+			[
+				"current",
+				"currentModule"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"cont",
+				"controller"
+			],
+			[
+				"route",
+				"routeToGallery"
+			],
+			[
+				"gallery",
+				"galleryTemplate"
+			],
+			[
+				"active",
+				"activePageMap"
+			],
+			[
+				"contain",
+				"containerSelector"
+			],
+			[
+				"button",
+				"buttonTemplate"
+			],
+			[
+				"get",
+				"getWidgetHtmlString"
+			],
+			[
+				"dr",
+				"dropdownTemplate"
+			],
+			[
+				"widgets",
+				"widgetsHtml"
+			],
+			[
+				"ind",
+				"index"
+			],
+			[
+				"ha",
+				"handleClick"
+			],
+			[
+				"widget",
+				"widgetHTML"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"t",
+				"tdata	tdata"
+			],
+			[
+				"na",
+				"navigationLocation"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"eve",
+				"eventName"
+			],
+			[
+				"appl",
+				"applicationHeader"
+			],
+			[
+				"ad",
+				"addRow"
+			],
+			[
+				"add",
+				"addBookRecord"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "@import url(\"bootstrap.min.css\");\n@import url(\"bootstrap-responsive.min.css\");\n@import url(\"font-awesome.css\");\n@import url(\"modules.css\");\n/* ===== Primary Styles ========================================================\n   Author: Oren Farhi, http://orizens.com\n   ========================================================================== */\n/* Application */\nbody {\n	overflow: hidden;\n}\n\nbody::before {\n  content:\"listen to those echoes\";\n  text-align: center;\n  margin: 0 auto;\n  position: absolute;\n  height: 100%;\n  top: 40%;\n  left: 5%;\n  line-height: 80px;\n  font-style: italic;\n  font-size: 80px;\n  width: 100%;\n  overflow: hidden;\n  text-shadow: 1px -1px 0px black, 0px 1px 0px white;\n  color: #777;\n  opacity: .2;\n}\n\nfooter {\n	position: fixed;\n	bottom: 0;\n	width: 100%;\n	padding: 10px 0 10px 10px;\n	box-shadow: 0 0px 10px black;\n	left: 0;\n}\nfooter p {\n	margin: 0;\n}\n/* Layout style */\n.progress-intro {\n	background: transparent;\n}\n.sidebar-left-fixed {\n	position: fixed;\n	bottom: 0;\n	top: 0;\n	left: 0;\n	margin: 0;\n	padding: 40px 0;\n}\n\n.container-main {\n	padding: 1px 1px 0px;\n	margin-left: 300px;\n	margin-top: 40px;\n	overflow-y: scroll;\n}\n\n.flex-container {\n	display: -webkit-flex;\n	-webkit-flex-direction: column;\n	-webkit-flex: 1 0 30%;\n}\n.flex-item {\n	-webkit-flex: 1;\n}\n/* Webkit browsers */\n/* This is the entire scrollbar unit. */\n::-webkit-scrollbar {\n	width: 8px;\n	height: 8px;\n}\n::-webkit-scrollbar-button {\n	background-color: transparent;\n    display: none;\n    height: 0px;\n}\n::-webkit-scrollbar-track {\n	/*border-color: transparent;\n	box-shadow: 0px 0px 3px #dfdfdf inset;*/\n}\n::-webkit-scrollbar-thumb {\n	background-color: #999;\n    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);\n    height: 7px;\n}\n::-webkit-scrollbar-thumb:hover {\n	background:#777;\n}			\n/* end of scrollbar */\n.nicer-ux *,\n.ux-maker {\n	-webkit-transition: all 0.2s ease-out;\n	-moz-transition:    all 0.2s ease-out;\n	-ms-transition:     all 0.2s ease-out;\n	-o-transition:      all 0.2s ease-out;\n	transition:         all 0.2s ease-out;\n}\n.ellipsis {\n	white-space: nowrap;\n	overflow: hidden;\n	text-overflow: ellipsis;\n}\n\n.brand i.icon-headphones {\n}\n.hero-unit {\n	padding: 15px;\n	-webkit-border-radius: 0;\n	-moz-border-radius: 0;\n	border-radius: 0;\n	margin-bottom: 1px;\n}\n.row-fluid input[type=\"search\"].search-query {\n	font-size: 29px;\n	height: 38px;\n	line-height: 38px;\n	margin-right: 20px;\n}\n/* sidebar module */\n.sidebar {\n	height: 100%;\n	width: 300px;\n}\n.sidebar-pane {\n	min-height: 0;\n}\n.sidebar h3 {\n	margin: 0;\n}\n.nav .nav-header,\n.nav li + .nav-header,\n.sidebar .nav-header {\n    margin-top: 0;\n	padding-left: 5px;\n	padding-right: 2px;\n	text-shadow: none;\n	color: #808080;\n	font-size: 14px;\n	font-weight: normal;\n}\n.sidebar .icon-plus-sign.icon-white {\n	margin-right: 0;\n    margin-top: 3px;\n}\n/* search module */\n.results-navigator {\n	color: #999;\n	margin: 0;\n	padding:10px;\n}\n.results-navigator a {\n	padding: 10px;\n	text-decoration: none;\n}\n.form-search {\n	margin: 0 5px 0 0;\n	position: relative;\n}\n.form-search input {\n	padding-right: 24px;\n	font-family: Asap;\n}\n.form-search .icon-search {\n	position: absolute; \n	top: 12px; \n	right: 6px;\n}\n.navbar .feed-filters {\n	margin-top: 5px;\n}\n.navbar-fixed-top .navbar-inner {\n	box-shadow: 0 1px 10px black;\n}\n/* navigation */\n.prev-disabled .prev,\n.next-disabled .next {\n	opacity: 0.3;\n	cursor: default;\n	text-decoration: none;\n}\n.prev-disabled .prev .items-per-page,\n.next-disabled .next .items-per-page {\n	display: none;\n}\n.nav-list [class^=\"icon-\"] {\n	margin-right: 8px;\n}\n\n.navbar .btn-navbar {\n	float: left;\n	margin-left: 18px;\n}\n/* results */\n.fade-out {\n	opacity: 0;\n}\n/* youtube styles */\n.well.youtube-item {\n	margin-left: 0;\n	margin-right: 1px;\n	margin-bottom: 1px;\n	position: relative;\n	padding: 8px;\n	border-radius: 0;\n	background-color: rgba(0,0,0,0);\n	box-shadow: none;\n	max-width: 253px;\n}\n\n.youtube-item .badge.badge-warning {\n	position: absolute;\n	right: 7px;\n	top: 8px;\n}\n.youtube-item .item-likes {\n	vertical-align: middle;\n}\n.youtube-item .description {\n	height: 0;\n	overflow: auto;\n	background-color: rgba(255, 255, 255, .8);\n	position: absolute;\n	bottom: 30px;\n	margin-right: 8px;\n	padding: 0;\n}\n\n.youtube-item .title {\n	height: 27px;\n	white-space: nowrap;\n	text-overflow: ellipsis;	\n	overflow: hidden;\n	margin-bottom: 0;\n	margin-right: 0;\n	margin-top: 17px;\n}\n\n.youtube-item:hover .title {\n	overflow: hidden;\n}\n\n.youtube-item .item-is-playing {\n	display: none;\n	position: absolute;\n	top: 7px;\n	color: #333;\n}\n.youtube-item .item-is-playing i {\n	margin: 2px 4px 0 0;\n}\n.youtube-item .item-is-playing.playing-true {\n	display: block;\n}\n.youtube-item .thumbnail {\n	overflow: hidden;\n	-webkit-border-radius: 0;\n	border-radius: 0;\n	clear: both;\n	height: 149px;\n	border: 5px solid white;\n	background-color: white;\n	padding: 0;\n	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .5);\n	\n}\n.youtube-item .thumbnail img {\n	height: 100%;\n}\n.youtube-item .badge {\n	background-color: gray;\n	border-radius: 0;\n}\n.youtube-item .icon-white {\n	margin-right: 4px;\n}\n.youtube-item aside {\n    float: right;\n    position: absolute;\n    right: -3px;\n    top: 5px;\n}\n.youtube-item .item-actions {\n	padding: 5px 10px;\n	background-color: rgba(170, 170, 170, 0.35);\n	margin: 0 2px;\n	box-shadow: 0px 1px 2px rgba(0,0,0,.3);\n}\n.youtube-item .item-actions span {\n	vertical-align: middle;\n}\n.youtube-item .item-actions .media-desc {\n	background: none;\n	border: none;\n	box-shadow: none;\n	padding: 0;\n}\n.youtube-item .item-action {\n	margin-right: 5px;\n}\n.youtube-item.show-description .description {\n	height: 100px;\n	padding: 4px 8px;\n}\n.show-description .icon-chevron-up {\n	-webkit-transform: rotate(180deg);\n}\n/* youtube player module */\n.youtube-player {\n	z-index: 1031;\n}\n.youtube-player .container-fluid {\n	padding: 0;\n}\n.youtube-player .progress {\n	position: absolute;\n	left:0;\n	bottom: 0;\n	z-index: 9;\n}\n.youtube-player .dropdown-menu {\n	box-shadow: 0 0 5px black;\n	background: rgba(0, 0, 0, .9);\n	border-radius: 0;\n}\n.dropdown-menu .track-info,\n.dropdown-menu .playlist-info {\n	width: 300px;\n	overflow: auto;\n	white-space: pre-line;\n	padding: 5px 10px;\n	color: white;\n	max-height: 250px;\n}\n.youtube-player .current-track-info {\n	/*border-right: 1px solid white;*/\n	font-family: Asap;\n}\n.ytplayer {\n	z-index: 10;\n}\n.yt-player {\n	z-index: 1000;\n	position: absolute;\n	left: 0;\n	top:0;\n	box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, .9);\n	background: rgba(0,0,0,.8);\n	-webkit-transition-duration: 0.5s;\n	-webkit-transform: translate3d(0,60px,0);\n}\n.show-youtube-player .yt-player {\n	-webkit-transform: translate3d(0,-271px,0);\n}\n.youtube-toolbar {\n	position: relative;\n	z-index: 1032;\n	margin: 0;\n}\n.youtube-toolbar .navbar-inner {\n	border-radius: 0;\n}\n.navbar .youtube-toolbar .nav .divider-vertical {\n	margin: 0;\n}\n.youtube-toolbar li > button {\n	padding: 10px 20px;\n	box-shadow: inset 0 0 0 #000;\n	border: none;\n	background: transparent;\n	color:whitesmoke;\n}\n.navbar .youtube-toolbar .nav > li > button:hover,\n.show-youtube-player .show-player,\n.fullscreen .fullscreen {\n	border-bottom: 4px solid #49afcd;\n	padding: 8px 20px;\n	box-shadow: inset 0 0 8px #000;\n}\n.youtube-toolbar .volume-down:hover,\n.youtube-toolbar .volume-up:hover {\n	opacity: .7;\n}\n.youtube-toolbar .volume-meter {\n	position: absolute;\n	top: -60px;\n	right: 201px;\n	font-size: 31px;\n	cursor: pointer;\n	color: #42C7EE;\n	text-shadow: 0 0 9px #49AFCD;\n	background: rgba(0,0,0,.9);\n	padding: 15px 10px;\n	border-radius: 3px;\n	width: 51px;\n	height: 20px;\n	text-align: center;\n}\n.volume-meter::after {\n	width: 0px;\n	height: 0px;\n	border-style: solid;\n	border-width: 6px 6px 0 6px;\n	border-color: #000 transparent transparent transparent;\n	top: 50px;\n	left: 27px;\n	content: '';\n	position: absolute;\n}\n.hide-volume .volume-meter {\n	display: none;\n}\n\n.show-player i {\n	-webkit-transform: rotateZ(0deg);\n	transform: rotateZ(0deg);\n}\n.show-youtube-player .show-player i {\n	-webkit-transform: rotateZ(180deg);\n	transform: rotateZ(180deg);\n}\n\n.youtube-toolbar .icon-refresh {\n	margin: 13px;\n	float: right;\n	opacity: .5;\n}\n.yt-playing .youtube-toolbar .icon-refresh {\n	-webkit-animation: rotation 12s infinite;\n	opacity: 1;\n}\n.yt-playing .play {\n	display: none;\n}\n.youtube-toolbar .pause {\n	display: none;\n}\n.yt-playing .pause {\n	display: inline-block;\n}\n@-webkit-keyframes rotation {\n	100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg);transform: rotate(360deg);}\n}\n/* user playlists module */\n.user-playlists {\n	overflow-y: scroll;\n	min-height: 0;\n	padding-bottom: 80px;\n}\n.user-playlist {\n	position: relative;\n}\n.user-playlist .badge {\n	position: absolute;\n	right: 0;\n}\n/* user profile */\n.user-profile .dropdown .dropdown-toggle {\n	border-radius: 0;\n}\n.user-profile .dropdown-menu {\n	border-radius: 0;\n	box-shadow: 0 0 5px black;\n	background: rgba(0, 0, 0, .9);\n	max-height: 250px;	\n}\n.user-profile .dropdown-menu > li a {\n	color: white;\n}\n.navbar .nav>li>.dropdown-menu:after {\n	border-bottom-color: rgba(0, 0, 0, .9);\n}\n.user-profile .dropdown .dropdown-toggle .username{\n	color: white;\n}\n.user-profile .icon-user {\n	color: white;\n}\n.user-profile .sign-out {\n	display: none;\n}\n.user-profile.user-signed-in .sign-out {\n	display: block;\n}\n.user-profile.user-signed-in .sign-in {\n	display: none;\n}\n.user-profile.user-signed-in .icon-user {\n	width: 20px;\n	height: 20px;\n	background-size: cover;\n	background-position: 0 0;\n	text-indent: -100px;\n	overflow: hidden;\n}\n.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {\n	margin-top: 6px;\n	border-top-color: #08c;\n	border-bottom-color: #08c;\n}\n/* playlist info */\n.playlist-info li a {\n	color: white;\n	border: none;\n	display: block;\n	padding: 3px 20px;\n	clear: both;\n	font-weight: normal;\n	line-height: 20px;\n	white-space: nowrap;\n	text-decoration: none;\n}\n/* deafult skin */\n.wood body {\n	background: url(../img/wood.jpg);\n	background-attachment: fixed;\n	font-family: Asap;\n}\n.wood .navbar {\n	/*font-family: Comfortaa;*/\n}\n.wood .navbar .brand {\n	padding-left: 5px;\n}\n.wood .hero-unit, \n.wood .well {\n	border: none;\n}\n.wood .sidebar.well	{\n	background-color: #212121;\n	box-shadow: 1px 10px 8px #333;\n}\n.wood .sidebar a,\n.wood .youtube-item .media-title {\n	color: gray;\n	text-shadow: none;\n}\n.wood .youtube-item .media-title {\n	display: block;\n	position: relative;\n	padding: 12px;\n	background: rgba(243, 242, 242, 0.65);\n	box-shadow: 0px 1px 2px rgba(0,0,0,.3);\n	font-family: Open Sans Condensed;\n	text-decoration: none;\n	-webkit-transform: translate3d(0px, 0px, 0);\n}\n.wood .youtube-item .add-to-playlists ul {\n	font-size: 12px;\n	border: none;\n	border-radius: 0;\n	background: rgba(255, 255, 255, .95);\n	max-height: 100px;\n	overflow: auto;\n}\n.wood .sidebar .nav > li a:hover,\n.nav-list > .active > a:hover,\n.wood .nav-list > .active > a {\n	background: transparent;\n}\n.wood .nav-list > .active > a {\n	color: white;\n}\n.wood .youtube-toolbar a:hover,\n.wood .youtube-toolbar .nav .dropdown-menu.playlist-info .active > a,\n.wood .youtube-toolbar .nav .dropdown-menu a:hover,\n.wood .youtube-toolbar .nav .dropdown-menu .active > a:hover,\n.wood .feed-filters .active,\n.wood .sidebar .active .nav-list li a,\n.wood .user-profile .dropdown-menu a:hover {\n	background-color: #49AFCD;\n	background-image: -ms-linear-gradient(top,#5BC0DE,#2F96B4);\n	background-image: -webkit-gradient(linear,0 0,0 100%,from(#5BC0DE),to(#2F96B4));\n	background-image: -webkit-linear-gradient(top,#5BC0DE,#2F96B4);\n	background-image: -o-linear-gradient(top,#5BC0DE,#2F96B4);\n	background-image: -moz-linear-gradient(top,#5BC0DE,#2F96B4);\n	background-image: linear-gradient(top,#5BC0DE,#2F96B4);\n	background-repeat: repeat-x;\n	/*background: -webkit-gradient(radial, -31 36, 0, 390 334, 450, from(rgba(0,0,0,0)), to(rgba(255,0,0,1)));*/\n}\n.wood .nav > li[class!=\"active\"] > a:hover {\n	opacity: .7;\n}\n.wood .nav-list li a {\n	padding: 10px 40px 10px 15px;\n}\n\n/* Mobile Phones */\n@media (max-width: 767px) {\n	body {\n		padding: 0 5px;\n	}\n	.navbar-fixed-top {\n		margin-bottom: 5px;\n	}\n	.navbar-fixed-bottom {\n		position: fixed;\n	}\n	.sidebar-left-fixed {\n		display: none;\n	}\n	.container-main {\n		margin-left: 0;\n		margin-top: 0;\n	}\n	.youtube-player .btn {\n		width: 40%;\n	}\n	.row-fluid input[type=\"search\"].search-query {\n		width: 100%;\n		margin: 0;\n	}\n	.form-search button[type='submit'] {\n		display: none;\n	}\n	.row-fluid .youtube-item[class*=\"span\"] {\n	  width: 100%;\n	  float: none;\n	}\n	.form-search {\n		margin-bottom: 0;\n		z-index: 10;\n	}\n	.results-navigator {\n		padding: 18px 5px 5px;\n		margin-top: -17px;\n	}\n	.well.youtube-item:hover {\n	    -webkit-box-shadow: none;\n	    -moz-box-shadow: none;\n	    box-shadow: none;\n	}\n}\n@media (max-width: 979px) and (min-width: 768px) {\n	.navbar-fixed-top,\n	.navbar-fixed-bottom {\n		position: fixed;\n	}\n	.navbar-fixed-top .navbar-inner,\n	.navbar-fixed-bottom .navbar-inner {\n		padding: 0;\n	}\n	.span2 {\n		width: 172px;\n	}\n	.row-fluid .span3 {\n		width: 33%;\n	}\n}\n@media (min-width: 1000px) {\n	/*.well.youtube-item:hover {\n	    background-color: rgba(0,0,0,.9);\n	}*/\n	.well.youtube-item:hover a{\n	   box-shadow: 2px 2px 8px rgba(0,0,0, .6);\n	   -webkit-transform: translate3d(-1px, -1px, 0);\n	}\n}\n@media (min-width: 1200px) {\n	.row-fluid .span3 {\n		width: 24%;\n	}\n}",
+			"file": "css/style.css",
+			"file_size": 13827,
+			"file_write_time": 130067885192453176,
+			"settings":
+			{
+				"buffer_size": 13162,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/collections/youtube_playlists_results.js",
+			"settings":
+			{
+				"buffer_size": 775,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/collections/youtube_playlists_provider.js",
+			"settings":
+			{
+				"buffer_size": 539,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/collections/history_playlist.js",
+			"settings":
+			{
+				"buffer_size": 363,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/collections/youtube_search_results.js",
+			"settings":
+			{
+				"buffer_size": 736,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/modules.less",
+			"settings":
+			{
+				"buffer_size": 203,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/modules/bootstrap-dropdown-animated.less",
+			"settings":
+			{
+				"buffer_size": 1627,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9586,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/requirejs-build.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"start",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"pac ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"pac dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"pac lis",
+				"Package Control: List Packages"
+			],
+			[
+				"pac enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"eme remo",
+				"Emmet: Remove Tag"
+			],
+			[
+				"emme remo",
+				"Emmet: Remove Tag"
+			],
+			[
+				"pac ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac list",
+				"Package Control: List Packages"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"stop",
+				"SublimeServer: Stop SublimeServer"
+			],
+			[
+				"error",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"sript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pac remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"export",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"script",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"convert tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"converttabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"con tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"emmetre",
+				"Emmet: Remove Tag"
+			],
+			[
+				"match",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"sy html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn jasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"expor",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"pac inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pacrrem",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pacins",
+				"Package Control: Install Package"
+			],
+			[
+				"synpro",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"todo",
+				"Show TODOs: Open files only"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"pains",
+				"Package Control: Install Package"
+			],
+			[
+				"palis",
+				"Package Control: List Packages"
+			],
+			[
+				"pa lis",
+				"Package Control: List Packages"
+			],
+			[
+				"pa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"contabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"con tb",
+				"Package Control: Create Binary Package File"
+			],
+			[
+				"conver tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"syn javsc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synjscs",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"pac remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"synjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syn jaasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synjascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn jascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"convertabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"conver tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"conve tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"syn javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"lin err",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"syn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pac cont",
+				"Package Control: Discover Packages"
+			],
+			[
+				"syn jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"conver ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"pac ene",
+				"Package Control: Enable Package"
+			],
+			[
+				"serverst",
+				"SublimeServer: Restart SublimeServer"
+			],
+			[
+				"snip objec",
+				"Snippet: Object Value JS"
+			],
+			[
+				"snip ob",
+				"Snippet: Object Value JS"
+			],
+			[
+				"snipeobj",
+				"Snippet: Object Value JS"
+			],
+			[
+				"snip:",
+				"Snippet: Prototype"
+			],
+			[
+				"syn mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pac re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pacremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"scheme",
+				"Schemr: BernatColorScheme"
+			],
+			[
+				"sche",
+				"Schemr: Finder"
+			],
+			[
+				"sce",
+				"Schemr: Espresso Aqua"
+			],
+			[
+				"goto",
+				"Goto Symbol : List symbols"
+			],
+			[
+				"pac en",
+				"Package Control: Enable Package"
+			],
+			[
+				"pac emo",
+				"Package Control: Remove Package"
+			],
+			[
+				"edimod",
+				"AMD Module Editor: Edit Modules"
+			],
+			[
+				"conr tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"pack ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ftp b",
+				"SFTP: Browse Server…"
+			],
+			[
+				"pre",
+				"Preferences: Settings - User"
+			],
+			[
+				"conve tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"con tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"coner tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"forma",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"convert ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"syn css",
+				"Set Syntax: CSS"
+			],
+			[
+				"syn les",
+				"Set Syntax: LESS"
+			],
+			[
+				"syn cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"syn le",
+				"Set Syntax: LESS"
+			],
+			[
+				"prefix",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"server:",
+				"SublimeServer: Manage SublimeServer Settings"
+			],
+			[
+				"pack en",
+				"Package Control: Enable Package"
+			],
+			[
+				"synt js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"convertab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"syjasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ftp br",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ftpbr",
+				"SFTP: Browse Server…"
+			],
+			[
+				"conv ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"errors",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"symbol",
+				"Goto Symbol : List symbols"
+			],
+			[
+				"wrao",
+				"Word Wrap: Toggle"
+			],
+			[
+				"syn ja sc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack ",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack li",
+				"Package Control: List Packages"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pac di",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack con l",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"sy ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pacdi",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 136.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/oren/SublimeText2/Data/Packages/User/Modific.sublime-settings",
+		"/C/oren/SublimeText2/Data/Packages/GitGutter/README.md",
+		"/C/Users/oren.farchi/Desktop/teach-li.css",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/UserPage/templates/teacherPageTemplate.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/TeacherLibrary/TeacherLibraryView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/modules/TeacherLibrary.css",
+		"/C/oren/SublimeText2/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/oren/SublimeText2/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Dialog/Dialog.js",
+		"/C/Users/oren.farchi/Desktop/patches/dropdown.patch",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Dialog/templates/eyesOnTeacher.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/modules/Dialog.css",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/bootstrap.css",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/modules.css",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/bootstrap-override.css",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/bootstrap/bootstrap.js",
+		"/C/oren/SublimeText2/Data/Packages/Jimbly's Clipboard History/Default (Windows).sublime-keymap",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/ContentToolbar/ContentToolbarView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/modules/ContentToolbar.css",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/ContentToolbar/templates/TOCLessonToolbarTemplate.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/ContentToolbar/templates/TOCItemToolbarTemplate.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/app/main.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/index.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Dialog/templates/dialog_template_with_buttons.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/UserPage/UserPageView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/common/data/T2KDal.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/fileSystem/config.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Toolbar/templates/user_profile.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/fileSystem/main.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/config/pages.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Course/CourseView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/CourseNavigation/CourseModel.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/CourseNavigation/templates/LO.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/CourseNavigation/RowView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/CourseNavigation/CourseNavigationView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/ContentPane/ContentPaneView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/ApplicationView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/ContentPane/ContentDetailsView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/ContentPane/players/DLContentPlayer.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/ApplicationModel.js",
+		"/C/oren/SublimeText2/Data/Packages/User/Preferences.sublime-settings",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/app/appRouter.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/admin.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/ActiveLessons/ActiveLessonsModel.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/GlobalUserState/GlobalUserState.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Workspace/WorkspaceView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/Workspace/WorkspaceModel.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Workspace/Collaboration/CollaborationToolbar.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Workspace/WorkspaceItemView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/icon.css",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Workspace/templates/workspace.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Workspace/templates/workspaceItem.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Toolbar/ToolbarView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Workspace/Collaboration/CollaborationView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Workspace/templates/collaborationItem.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/app/config.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/CometModel/CometModel.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/require/require.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/require/text-latest.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/require/text.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/require/require-latest.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/TeacherLibrary/templates/AssignToClassDialogTemplate.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/modules/Workspace.css",
+		"/C/oren/SublimeText2/Data/Packages/SublimeWebInspector-master/Default (Windows).sublime-keymap",
+		"/C/oren/SublimeText2/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Workspace/Collaboration/CollaborationItem.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/modules/ClassPage/ClassPage.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/ClassPage/ClassPageView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Notifications/templates/notifications.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/modules/Collaboration.css",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Notifications/Notifications.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/common/utils/utils.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Workspace/CollaborationView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Workspace/CollapseView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/CourseNavigation/templates/Lesson.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/images/sec_placeholder.jpg",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/backbone/backbone.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/davinci/BaseView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Toolbar/TitleView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Toolbar/MessageArea.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Course/templates/CourseView.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/AppInitData/AppInitData.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/CourseNavigation/StudyClassStatesCollection.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/davinci/davinci.js",
+		"/C/oren/SublimeText2/Data/Packages/LESS-build/readme.md",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/modules/Toolbar.css",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/style.css",
+		"/C/oren/SublimeText2/Data/Packages/LESS-build/dotless-acknowledgements.txt",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/Dictionary/DictionaryModel.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/jquery/jquery-1.8.3.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/config/services.js",
+		"/C/Users/oren.farchi/Desktop/rest.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/common/providers/CometNotifier.js",
+		"/D/t2kdev/dtp/lms/projects/backend/resources/dictionaries/dictionary.en_US.properties",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/Dialog/DialogModel.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/org/cometd.js",
+		"/C/oren/SublimeText2/Data/Packages/JavaScript/JavaScript.tmLanguage",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/ClassPage/CourseModel.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/config/modules.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Toolbar/templates/toolbar_template.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/common/utils/dictionary.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/HomePage/HomePageView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/libs/underscore/underscore.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/config/dialogsConfig.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Dialog/DialogView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Dialog/templates/dialog_template_with_HTML_content.html",
+		"/C/oren/SublimeText2/Data/Packages/User/SublimeLinter.sublime-settings",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/config/dialogEvents.js",
+		"/C/oren/SublimeText2/Data/Packages/Helios/Helios.sublime-settings",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/CourseNavigation/CourseItemCollection.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Dialog/templates/header/dialog_header_with_close.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/CourseNavigation/SequenceModel.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/CourseNavigation/CourseItemModel.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/Dialog/templates/header/dialog_header_without_close.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/ClassPage/StudentList.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/TeacherPage/ClassesCollection.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/common/data/BackboneT2KDalAdapter.js",
+		"/C/oren/SublimeText2/Data/Packages/ExportHtml/ExportHtml.sublime-settings",
+		"/C/oren/SublimeText2/Data/Packages/ExportHtml/readme.md",
+		"/c/users/oren~2.far/appdata/local/temp/tmpdulseo.html",
+		"/C/oren/SublimeText2/Data/Packages/Html Export/HtmlExport.sublime-settings",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/modules/CourseView.css",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/ContentPane/TableOfContentView.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/models/CourseNavigation/TOCItemModel.js",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/CourseNavigation/templates/TOCRoot.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/CourseNavigation/templates/TOCItem.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/js/views/CourseNavigation/templates/rowTemplate.html",
+		"/D/t2kdev/dtp/lms/projects/backend/dtp-lms-backend-war/src/main/webapp/css/modules/CourseNavigation.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			"*.js, ,D:\\t2kdev\\dtp\\lms\\projects\\backend\\dtp-lms-backend-war\\src\\main\\webapp\\js\\views",
+			"<open folders>,,*.js,<open folders>",
+			"<open folders>",
+			"C:\\oren\\SublimeText2\\Data\\Packages\\JavaScript",
+			"<open folders>,",
+			"<open folders>, *.js",
+			"<open folders>,",
+			"<open folders>,<open folders>",
+			"<open folders>",
+			"D:\\t2k\\lms\\projects\\dtp-war\\src\\main\\webapp\\@@@lms.version@@@\\student\\js",
+			"D:\\t2k\\lms\\projects\\dtp-war\\src\\main\\webapp\\@@@lms.version@@@,*.js,*.jsp",
+			"D:\\t2k\\lms\\projects\\dtp-war\\src\\main\\webapp\\@@@lms.version@@@",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"padding: 3px 20px",
+			"padding: 3px 20px;",
+			"\\",
+			"this.get(this.played)",
+			"SchoolLibraryItemView",
+			"getThumbnailUrl",
+			"isInTeacherLib",
+			"my-library-container",
+			"isUpdated",
+			"getThumbnailUrl",
+			"lib-thumbnail-container",
+			"toggleMenu",
+			"menu-button",
+			"slideDownFromTop",
+			"3",
+			"loading-progress",
+			"loading",
+			"#4E4E4E",
+			"top",
+			"2",
+			"all",
+			"student-menu",
+			"course-presenter-toolbar",
+			"toggleBackdrop",
+			"configureStyle",
+			"slideup",
+			"menu-container",
+			"contentplayerView",
+			"onSelectedLOClick",
+			"deselectAllSequences",
+			"renderSelectedSequence",
+			"expandSequences",
+			"sequence-container",
+			"renderSelected",
+			"renderSelectedSequence",
+			"selectCourseItem",
+			"dragOverEvent",
+			"lesson",
+			"START_LESSON",
+			"globalUserState.get('rtcm')",
+			"originalEvent",
+			"guides",
+			"word",
+			"collaborationList",
+			"views",
+			"this.views",
+			".views",
+			"views",
+			"this.views.",
+			"ClassPage",
+			"this.views.",
+			"views",
+			"CollaborationView",
+			"Davinci.App.on",
+			"dragLeaveEvent",
+			"_displayTimer",
+			"dialog",
+			"DialogView",
+			"\\{([a-z]*)\\}",
+			"{[a-z]}",
+			"div",
+			"1",
+			"items",
+			"v",
+			"workspaceTemplate",
+			"<img",
+			"WorkspaceView",
+			"stopCurrentViewListeners",
+			"stopListening",
+			"selectedToolbar",
+			"resourceAttrs",
+			"WorkspaceView",
+			"items",
+			"			\n",
+			"article",
+			"showCourseView",
+			"toolbarView",
+			"activeLessonPath",
+			"this.get('appInitData')",
+			"DialogModel",
+			"moduleName",
+			"modules",
+			"localhost",
+			"getCoursePosition",
+			"getStudyClassNameByCourseId",
+			"getCoursePresenter",
+			"model",
+			"templates/toolbar_template.html",
+			"Navbar",
+			"navBar",
+			"LocaleModel",
+			"LocalManager",
+			"DictionaryModel",
+			"CourseModel",
+			"delegateEvents",
+			"a",
+			"*",
+			".btn",
+			"this",
+			"../images",
+			"img",
+			"dialog",
+			"modules/dialog",
+			"    ",
+			"icon-back",
+			"ookie",
+			"renderTOC",
+			"dispose(",
+			".fetch(",
+			".fetch",
+			"fetch",
+			"this.get('classesCollection').fet",
+			"setModelParentId",
+			"lesson",
+			"lessons",
+			"createToc",
+			"classcourses",
+			"courseView",
+			"user_data",
+			"teacherPage",
+			"teacherPa",
+			"teacherpage",
+			"Backbone.BaseView.define",
+			"disableViews",
+			"onResourceChange",
+			"white; \n  	&:hover",
+			"white; \n  	&:",
+			"white; \n  	"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\" + \\1 + \"",
+			"../../images",
+			"\\t",
+			"this.pageManager",
+			"app",
+			"controller.app",
+			"Davinci._.",
+			"Davinci",
+			"Davinci.Controller",
+			"Davinci.Controller\n	'underscore',\n	'backbone',",
+			"'davinci',\n	'underscore',\n	'backbone',",
+			"'jquery',\n	'underscore',\n	'backbone',",
+			"'jquery',\n    'underscore',\n    'backbone',",
+			"Davinci",
+			"Davinci.View",
+			"'svn'",
+			"'hg'",
+			"blackmamba-gray",
+			"images/blackmamba-edit",
+			"onPostNewComment",
+			"getCommentData",
+			"resetEditor",
+			"true",
+			"trainScrollerView",
+			"data",
+			"\\t",
+			"items",
+			"\\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 13162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6850,
+								6850
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": false,
+								"box-model": true,
+								"box-sizing": false,
+								"compatible-vendor-prefixes": false,
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": false
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"smarttabs": false,
+								"sub": true,
+								"trailing": false,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+								"css",
+								"java",
+								"python"
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7253.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/collections/youtube_playlists_results.js",
+					"settings":
+					{
+						"buffer_size": 775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": false,
+								"box-model": true,
+								"box-sizing": false,
+								"compatible-vendor-prefixes": false,
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": false
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"smarttabs": false,
+								"sub": true,
+								"trailing": false,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+								"css",
+								"java",
+								"python"
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/collections/youtube_playlists_provider.js",
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": false,
+								"box-model": true,
+								"box-sizing": false,
+								"compatible-vendor-prefixes": false,
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": false
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"smarttabs": false,
+								"sub": true,
+								"trailing": false,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+								"css",
+								"java",
+								"python"
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/collections/history_playlist.js",
+					"settings":
+					{
+						"buffer_size": 363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": false,
+								"box-model": true,
+								"box-sizing": false,
+								"compatible-vendor-prefixes": false,
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": false
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"smarttabs": false,
+								"sub": true,
+								"trailing": false,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+								"css",
+								"java",
+								"python"
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/collections/youtube_search_results.js",
+					"settings":
+					{
+						"buffer_size": 736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": false,
+								"box-model": true,
+								"box-sizing": false,
+								"compatible-vendor-prefixes": false,
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": false
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"smarttabs": false,
+								"sub": true,
+								"trailing": false,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+								"css",
+								"java",
+								"python"
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/modules.less",
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": false,
+								"box-model": true,
+								"box-sizing": false,
+								"compatible-vendor-prefixes": false,
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": false
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"smarttabs": false,
+								"sub": true,
+								"trailing": false,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+								"css",
+								"java",
+								"python"
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/modules/bootstrap-dropdown-animated.less",
+					"settings":
+					{
+						"buffer_size": 1627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": false,
+								"box-model": true,
+								"box-sizing": false,
+								"compatible-vendor-prefixes": false,
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": false
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"smarttabs": false,
+								"sub": true,
+								"trailing": false,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+								"css",
+								"java",
+								"python"
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 9586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6235,
+								6235
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": false,
+								"box-model": true,
+								"box-sizing": false,
+								"compatible-vendor-prefixes": false,
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"text-indent": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": false
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"smarttabs": false,
+								"sub": true,
+								"trailing": false,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+								"css",
+								"java",
+								"python"
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3453.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 141.0
+	},
+	"output.git":
+	{
+		"height": 130.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 143.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"module",
+				"css/modules.less"
+			],
+			[
+				"style",
+				"css/style.css"
+			],
+			[
+				"shcoolibvie",
+				"js/views/TeacherLibrary/SchoolLibraryItemView.js"
+			],
+			[
+				"tealibra",
+				"css/modules/TeacherLibrary.css"
+			],
+			[
+				"teachlibra",
+				"css/modules/TeacherLibrary.css"
+			],
+			[
+				"library",
+				"js/views/TeacherLibrary/templates/MyLibraryItemTemplate.html"
+			],
+			[
+				"teacherpa",
+				"css/modules/TeacherPage.css"
+			],
+			[
+				"userphtml",
+				"js/views/Toolbar/templates/user_profile.html"
+			],
+			[
+				"boo",
+				"css/bootstrap-override.css"
+			],
+			[
+				"dialog",
+				"js/views/Dialog/Dialog.js"
+			],
+			[
+				"boocss",
+				"css/bootstrap.css"
+			],
+			[
+				"bootjs",
+				"js/libs/bootstrap/bootstrap.js"
+			],
+			[
+				"contento",
+				"js/views/ContentToolbar/ContentToolbarView.js"
+			],
+			[
+				"contetocss",
+				"css/modules/ContentToolbar.css"
+			],
+			[
+				"modules",
+				"css/modules.css"
+			],
+			[
+				"indeht",
+				"index.html"
+			],
+			[
+				"dialojs",
+				"js/views/Dialog/Dialog.js"
+			],
+			[
+				"userprofi",
+				"js/views/Toolbar/templates/user_profile.html"
+			],
+			[
+				"toclesstootte",
+				"js/views/ContentToolbar/templates/TOCLessonToolbarTemplate.html"
+			],
+			[
+				"userprofie",
+				"js/views/Toolbar/templates/user_profile.html"
+			],
+			[
+				"main",
+				"js/app/main.js"
+			],
+			[
+				"config",
+				"fileSystem/config.js"
+			],
+			[
+				"t2kdal",
+				"js/common/data/T2KDal.js"
+			],
+			[
+				"userpage",
+				"js/views/UserPage/UserPageView.js"
+			],
+			[
+				"courmodel",
+				"js/models/CourseNavigation/CourseModel.js"
+			],
+			[
+				"courmode",
+				"js/models/CourseNavigation/CourseModel.js"
+			],
+			[
+				"rowview",
+				"js/views/CourseNavigation/RowView.js"
+			],
+			[
+				"counaview",
+				"js/views/CourseNavigation/CourseNavigationView.js"
+			],
+			[
+				"dialogjs",
+				"js/views/Dialog/Dialog.js"
+			],
+			[
+				"dlcontentpla",
+				"js/views/ContentPane/players/DLContentPlayer.js"
+			],
+			[
+				"contentdetailsview",
+				"js/views/ContentPane/ContentDetailsView.js"
+			],
+			[
+				"contpanevi",
+				"js/views/ContentPane/ContentPaneView.js"
+			],
+			[
+				"courseviewjs",
+				"js/views/Course/CourseView.js"
+			],
+			[
+				"appmode",
+				"js/models/ApplicationModel.js"
+			],
+			[
+				"pages",
+				"js/config/pages.js"
+			],
+			[
+				"worspaceview",
+				"js/views/Workspace/WorkspaceView.js"
+			],
+			[
+				"worksp",
+				"js/models/Workspace/WorkspaceModel.js"
+			],
+			[
+				"actiles",
+				"js/models/ActiveLessons/ActiveLessonsModel.js"
+			],
+			[
+				"globa",
+				"js/models/GlobalUserState/GlobalUserState.js"
+			],
+			[
+				"approuter",
+				"js/app/appRouter.js"
+			],
+			[
+				"icon",
+				"css/icon.css"
+			],
+			[
+				"appvi",
+				"js/views/ApplicationView.js"
+			],
+			[
+				"comemode",
+				"js/models/CometModel/CometModel.js"
+			],
+			[
+				"t2kd",
+				"js/common/data/T2KDal.js"
+			],
+			[
+				"confi",
+				"js/app/config.js"
+			],
+			[
+				"bootstjs",
+				"js/libs/bootstrap/bootstrap.js"
+			],
+			[
+				"associ",
+				"js/views/TeacherLibrary/templates/AssignToClassDialogTemplate.html"
+			],
+			[
+				"workcss",
+				"css/modules/Workspace.css"
+			],
+			[
+				"collaborationitemhtml",
+				"js/views/Workspace/templates/collaborationItem.html"
+			],
+			[
+				"collaborationitem",
+				"js/views/Workspace/Collaboration/CollaborationItem.js"
+			],
+			[
+				"workspacemode",
+				"js/models/Workspace/WorkspaceModel.js"
+			],
+			[
+				"apmodel",
+				"js/models/ApplicationModel.js"
+			],
+			[
+				"toolvi",
+				"js/views/Toolbar/ToolbarView.js"
+			],
+			[
+				"bootsjs",
+				"js/libs/bootstrap/bootstrap.js"
+			],
+			[
+				"worlspac",
+				"js/views/Workspace/templates/workspace.html"
+			],
+			[
+				"workspacev",
+				"js/views/Workspace/WorkspaceView.js"
+			],
+			[
+				"apview",
+				"js/views/ApplicationView.js"
+			],
+			[
+				"wosphtml",
+				"js/views/Workspace/templates/workspace.html"
+			],
+			[
+				"contenttoolbarview",
+				"js/views/ContentToolbar/ContentToolbarView.js"
+			],
+			[
+				"utils",
+				"js/common/utils/utils.js"
+			],
+			[
+				"colview",
+				"js/views/Workspace/Collaboration/CollaborationView.js"
+			],
+			[
+				"worksmode",
+				"js/models/Workspace/WorkspaceModel.js"
+			],
+			[
+				"courview",
+				"js/views/Course/CourseView.js"
+			],
+			[
+				"lessonh",
+				"js/views/CourseNavigation/templates/Lesson.html"
+			],
+			[
+				"works",
+				"js/views/Workspace/WorkspaceView.js"
+			],
+			[
+				"rowvie",
+				"js/views/CourseNavigation/RowView.js"
+			],
+			[
+				"back",
+				"js/libs/backbone/backbone.js"
+			],
+			[
+				"courvie",
+				"js/views/Course/CourseView.js"
+			],
+			[
+				"backb",
+				"js/libs/backbone/backbone.js"
+			],
+			[
+				"basi",
+				"js/libs/davinci/BaseView.js"
+			],
+			[
+				"mesarea",
+				"js/views/Toolbar/MessageArea.js"
+			],
+			[
+				"courseviewhtml",
+				"js/views/Course/templates/CourseView.html"
+			],
+			[
+				"coursvi",
+				"js/views/Course/CourseView.js"
+			],
+			[
+				"dictionarymodel",
+				"js/models/Dictionary/DictionaryModel.js"
+			],
+			[
+				"dict",
+				"js/models/Dictionary/DictionaryModel.js"
+			],
+			[
+				"davinc",
+				"js/libs/davinci/davinci.js"
+			],
+			[
+				"studyclassstatescollection",
+				"js/models/CourseNavigation/StudyClassStatesCollection.js"
+			],
+			[
+				"service",
+				"js/config/services.js"
+			],
+			[
+				"appv",
+				"js/views/ApplicationView.js"
+			],
+			[
+				"courviejs",
+				"js/views/Course/CourseView.js"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"dialomde",
+				"js/models/Dialog/DialogModel.js"
+			],
+			[
+				"comnoti",
+				"js/common/providers/CometNotifier.js"
+			],
+			[
+				"cometd",
+				"js/libs/org/cometd.js"
+			],
+			[
+				"contolvi",
+				"js/views/ContentToolbar/ContentToolbarView.js"
+			],
+			[
+				"cometmodel",
+				"js/models/CometModel/CometModel.js"
+			],
+			[
+				"router",
+				"js/app/appRouter.js"
+			],
+			[
+				"modulejs",
+				"js/config/modules.js"
+			],
+			[
+				"text",
+				"js/libs/require/text.js"
+			],
+			[
+				"indehtml",
+				"index.html"
+			],
+			[
+				"con",
+				"js/app/config.js"
+			],
+			[
+				"toovi",
+				"js/views/Toolbar/ToolbarView.js"
+			],
+			[
+				"basvie",
+				"js/libs/davinci/BaseView.js"
+			],
+			[
+				"coursmode",
+				"js/models/CourseNavigation/CourseModel.js"
+			],
+			[
+				"unders",
+				"js/libs/underscore/underscore.js"
+			],
+			[
+				"pagevi",
+				"js/views/HomePage/HomePageView.js"
+			],
+			[
+				"applmodel",
+				"js/models/ApplicationModel.js"
+			],
+			[
+				"diction",
+				"js/common/utils/dictionary.js"
+			],
+			[
+				"require",
+				"js/libs/require/require.js"
+			],
+			[
+				"underscore",
+				"js/libs/underscore/underscore.js"
+			],
+			[
+				"indexhtml",
+				"index.html"
+			],
+			[
+				"appview",
+				"js/views/ApplicationView.js"
+			],
+			[
+				"dialo",
+				"js/config/dialogsConfig.js"
+			],
+			[
+				"coursvie",
+				"js/views/Course/CourseView.js"
+			],
+			[
+				"dictiona",
+				"js/common/utils/dictionary.js"
+			],
+			[
+				"courseview",
+				"css/modules/CourseView.css"
+			],
+			[
+				"tableofcontentview",
+				"js/views/ContentPane/TableOfContentView.js"
+			],
+			[
+				"classescollection",
+				"js/models/TeacherPage/ClassesCollection.js"
+			],
+			[
+				"applimode",
+				"js/models/ApplicationModel.js"
+			],
+			[
+				"couritemode",
+				"js/models/CourseNavigation/CourseItemModel.js"
+			],
+			[
+				"courite",
+				"js/models/CourseNavigation/CourseItemCollection.js"
+			],
+			[
+				"tocmodel",
+				"js/models/CourseNavigation/TOCItemModel.js"
+			],
+			[
+				"classcol",
+				"js/models/TeacherPage/ClassesCollection.js"
+			],
+			[
+				"coursenavigationtemplate",
+				"js/views/CourseNavigation/templates/courseNavigationTemplate.html"
+			],
+			[
+				"homepageview",
+				"js/views/HomePage/HomePageView.js"
+			],
+			[
+				"studyc",
+				"js/models/CourseNavigation/StudyClassStateModel.js"
+			],
+			[
+				"toccss",
+				"css/modules/TOC.css"
+			],
+			[
+				"under",
+				"js/libs/underscore/underscore.js"
+			],
+			[
+				"page",
+				"js/config/pages.js"
+			],
+			[
+				"appr",
+				"js/app/appRouter.js"
+			],
+			[
+				"classec",
+				"js/models/TeacherPage/ClassesCollection.js"
+			],
+			[
+				"lessonhtml",
+				"js/views/CourseNavigation/templates/Lesson.html"
+			],
+			[
+				"courcss",
+				"css/modules/CourseNavigation.css"
+			],
+			[
+				"courseviewht",
+				"js/views/Course/templates/CourseView.html"
+			],
+			[
+				"row",
+				"js/views/CourseNavigation/RowView.js"
+			],
+			[
+				"lesson",
+				"js/models/CourseNavigation/LessonModel.js"
+			],
+			[
+				"toolbarview",
+				"js/views/Toolbar/ToolbarView.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"ehcoes",
+				"/C/oren/GitHub/echoes/echoes.sublime-project"
+			],
+			[
+				"",
+				"/C/oren/projects/sublime/Echoes-git.sublime-project"
+			],
+			[
+				"late",
+				"/C/oren/T2K-Projects/student-latest-sublime.sublime-project"
+			],
+			[
+				"studen",
+				"/C/oren/T2K-Projects/student-latest-sublime.sublime-project"
+			],
+			[
+				"stud",
+				"/C/oren/T2K-Projects/student-latest-sublime.sublime-project"
+			],
+			[
+				"scen",
+				"/C/oren/projects/work/orizens.bitbucket.org/scent-player-project.sublime-project"
+			],
+			[
+				"da",
+				"/C/oren/T2K-Projects/DaVinci.sublime-project"
+			],
+			[
+				"dav",
+				"/C/oren/T2K-Projects/DaVinci.sublime-project"
+			],
+			[
+				"ad",
+				"/C/oren/projects/work/adir-web.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true
+}
