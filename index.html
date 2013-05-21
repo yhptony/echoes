@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<!-- Facebook Insights -->
+	<meta property="fb:admins" content="754318072">
+	<meta property="fb:app_id" content="277907182339554">
 
 	<title>Echoes Media Center ~=~ EMC</title>
 	<meta name="description" content="Media Player built upon various media services">
@@ -18,10 +21,20 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Asap|Comfortaa:700|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
-
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/flick/jquery-ui.css" />
 </head>
 <body>
-<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<!-- Facebook Integration -->
+	<div id="fb-root"></div>
+	<script>
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=277907182339554";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
 
 		<!-- TOP NAVIGATION BAR -->
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -61,7 +74,7 @@
 							<!-- SEARCH FORM -->
 							<li>
 								<form class="navbar-form form-search" id="media-explorer">
-									<input placeholder="Explore My Media" id="media-search" type="search" class="input-medium search-query span4">
+									<input placeholder="Explore My Media" id="media-search" type="search" class="input-medium search-query span3">
 									<i class="icon-search"></i>
 								</form>
 							</li>
@@ -69,7 +82,7 @@
 							<!-- SEARCH FILTER -->
 							<li>
 								
-								<div id="feed-filter" class="btn-group feed-filters">
+								<div id="feed-filter" class="feed-filters">
 									<a class="btn btn-inverse videos" href="#filter/videos" title="Explore Videos">
 										<i class="icon-film"></i> Videos
 									</a>
@@ -85,20 +98,6 @@
 								<div id="results-navigator" class="results-navigator"></div>
 							</li>
 
-							<!-- li>
-								<script>
-								  (function() {
-								    var cx = '008064826075123370581:phfdh4jvlea';
-								    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-								    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-								        '//www.google.com/cse/cse.js?cx=' + cx;
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-								  })();
-								</script>
-								<gcse:search></gcse:search>
-								      
-
-							</li -->
 						</ul>
 
 						
@@ -114,6 +113,7 @@
 				<div class="container-fluid">
 					
 					<div class="yt-player ux-maker">
+						<div id="facebook-like" class="facebook-like"></div>
 						<div id="player"></div>
 					</div>
 					
@@ -183,7 +183,7 @@
 						<ul class="nav">
 							<li>
 								<div class="current-track-info current-playlist-info pull-right">
-									<div class="btn-group dropup">
+									<div class="dropup">
 									  <button class="btn btn-info dropdown-toggle" title="Current Playlist" data-toggle="dropdown">
 									  	<span class="yt-playlist-title"><i class="icon-th-list"></i></span>
 									    <span class="caret"></span>
@@ -199,7 +199,7 @@
 
 							<li>
 								<div class="current-track-info current-track-info-container pull-right">
-									<div class="btn-group dropup">
+									<div class="dropup">
 									  <button class="btn btn-info dropdown-toggle" title="Currently Playing" data-toggle="dropdown">
 									  	<span class="yt-media-title">no media yet...</span>
 									    <span class="caret"></span>
@@ -271,11 +271,12 @@
 	    </p>
 	  </div>
 	  <div class="modal-footer">
-	    <a href="#" class="btn" data-dismiss="modal">Close</a>
-	    <a href="#" class="btn btn-primary dont-remind">OK, Don't remind me the next time</a>
+	    <button class="btn" data-dismiss="modal">Close</button>
+	    <button class="btn btn-primary dont-remind">OK, Don't remind me the next time</button>
 	  </div>
 	</div>
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script> -->
+	
 	<script data-main="js/config" src="js/libs/require/require.js"></script>
 	<script type="text/javascript">
 

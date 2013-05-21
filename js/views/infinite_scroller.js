@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone"],function(e,t,n){var r=n.View.extend({el:".container-main",initialize:function(){this.listenToScroll()},listenToScroll:function(){this.$el.scroll(t.bind(this.loadNext,this))},loadNext:function(){this.$el.scrollTop()==this.$(".row-fluid").height()-this.$el.height()&&console.log("scrolled at end")}});return r});
