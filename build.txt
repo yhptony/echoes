@@ -77,12 +77,16 @@ js/views/youtube_playlist_item.js
 js/models/youtube_playlist_item.js
 js/collections/youtube_playlists_results.js
 js/views/youtube_playlists_results.js
+js/models/youtube_playlist_info_provider.js
+text!templates/youtube_playlist_info_viewer.html
+js/views/youtube_playlist_info_viewer.js
 js/views/content_layout.js
 js/views/feed_filter.js
 text!templates/youtube_user_playlist_item.html
 js/views/youtube_user_playlist_item.js
 js/views/youtube_playlists_provider.js
 js/views/user_profile_manager.js
+js/fb.js
 text!templates/facebook_like_tag.html
 js/views/facebook/facebook_like_view.js
 text!templates/playlist-search.html
@@ -98,7 +102,6 @@ js/collections/history_playlist.js
 js/views/player_app.js
 js/models/user_profile_manager.js
 js/models/youtube_item_info.js
-js/models/youtube_playlist_info_provider.js
 js/models/gapi.js
 js/models/youtube/ProfileService.js
 js/models/youtube/YoutubePlaylistItemsService.js

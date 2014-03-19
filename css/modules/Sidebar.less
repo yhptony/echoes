@@ -1,7 +1,12 @@
-#sidebar-menu-toggler {
-	display: none;
+// helpers
+.closed-sidebar() {
+	.sidebar-left-fixed.closed {
+		z-index: 100;
+		.transform(translatex(-300px));
+	}
 }
-@media (max-width: 767px) {
+
+.sidebar-toggle() {
 	#sidebar-menu-toggler {
 		position: fixed; 
 		top: 0; 
@@ -25,6 +30,13 @@
 			.transition(all .3s ease-out);
 		}
 	}
+}
+// the code
+#sidebar-menu-toggler {
+	display: none;
+}
+@media (max-width: 1024px) {
+	.sidebar-toggle();
 }
 .sidebar-left-fixed {
 	.transform(translatex(0px));
@@ -73,9 +85,26 @@
 	}
 }
 
-@media (max-width: 767px) {
-	.sidebar-left-fixed.closed {
-		z-index: 100;
-		.transform(translatex(-300px));
+@media (max-width: 1024px) {
+	.closed-sidebar();
+}
+.ios {
+	.sidebar-left-fixed {
+		padding: 64px 0;
 	}
+	&.wood .navbar .brand {
+		padding-left: 25px;
+	}
+	
+	.sidebar-toggle();
+
+	#sidebar-menu-toggler {
+		top: 1px;
+
+		.btn-navbar {
+			padding-left: 0;
+		}
+	}
+
+	.closed-sidebar();
 }
