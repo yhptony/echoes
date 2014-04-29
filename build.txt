@@ -97,6 +97,7 @@ js/views/youtube/PlaylistsViewer.js
 js/views/SidebarView.js
 js/views/Loader.js
 js/views/infinite_scroller.js
+js/views/google/gplus-share.js
 js/libs/utils.js
 js/collections/history_playlist.js
 js/views/player_app.js
