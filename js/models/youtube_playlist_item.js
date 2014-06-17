@@ -1,1 +1,1 @@
-define(["underscore","backbone"],function(e,t){var n=t.Model.extend({defaults:{isPlaying:!1,thumbnail:{sqDefault:"http://placehold.it/480x360",hqDefault:"img/texture.png"}}});return n});
+define(["underscore","backbone"],function(e,t){var n=t.Model.extend({defaults:{isPlaying:!1},getThumbnail:function(){var e=this.attributes.thumbnail,t=e&&e.hqDefault||"";return t}});return n});

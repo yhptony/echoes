@@ -1,1 +1,1 @@
-define(["backbonesrc","beamer","collectionView","transition","switcher","safe"],function(e){return window.Backbone});
+define(["backbonesrc","beamer","collectionView","transition","switcher","safe","utils"],function(e,t,n,r,i,s){return _.each(arguments,function(e){e&&e.beam&&e.beam()}),window.Backbone});
