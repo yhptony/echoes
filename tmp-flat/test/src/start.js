@@ -1,0 +1,1 @@
+$(function(){PlayerApp.Templates.load("../templates/templates.html",function(){function e(){t.execute()}var t=jasmine.getEnv();t.updateInterval=1e3;var n=new jasmine.HtmlReporter;t.addReporter(n),t.specFilter=function(e){return n.specFilter(e)},e()})});
