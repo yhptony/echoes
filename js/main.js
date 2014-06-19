@@ -1,1 +1,1 @@
-require(["jquery","bootstrap","views/player_app","models/player_app","routers/app_router"],function(e,t,n,r,i){window.playerModel=new r;var s=new n({model:playerModel}),o=new i({model:playerModel})});
+require(["jquery","bootstrap","views/player_app","models/player_app","routers/app_router"],function(e,r,o,p,l){window.playerModel=new p,new o({model:playerModel}),new l({model:playerModel})});
