@@ -1,1 +1,0 @@
-define(["jquery","underscore","backbone","views/youtube_user_playlist_item"],function(e,t,n,r){var i=n.View.extend({el:"#user-playlists",view:{type:r,events:{"playlist-selected":"onPlaylistSelected"}},onPlaylistSelected:function(){this.$el.find(".active").removeClass("active")}});return i});
