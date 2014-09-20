@@ -1,14 +1,12 @@
-@import url("bootstrap.min.css");
-@import url("bootstrap-responsive.min.css");
-@import url("font-awesome.css");
-@import url(modules.less);
+// @import url("bootstrap.min.css");
+// @import url("bootstrap-responsive.min.css");
+// @import url("font-awesome.css");
+// @import url(modules.less);
 /* ===== Primary Styles ========================================================
    Author: Oren Farhi, http://orizens.com
    ========================================================================== */
 /* Application */
-
-@bg-dark-color: #323538;
-@primary-color: #1abc9c;
+@import url(core/vars.less);
 
 footer {
 	position: fixed;
@@ -42,30 +40,7 @@ iframe {
 	margin-right: 20px;
 }
 /* search module */
-.results-navigator {
-	color: #999;
-	margin: 0;
-	padding:10px;
-}
-.results-navigator a {
-	padding: 10px;
-	text-decoration: none;
-}
-.form-search {
-	margin: 0 5px 0 0;
-	position: relative;
-}
-.form-search input {
-	padding-right: 24px;
-	font-family: Asap, Arial;
-	width: 164px;
-	border-radius: 0;
-}
-.form-search .icon-search {
-	position: absolute; 
-	top: 12px; 
-	right: 6px;
-}
+
 
 .navbar-fixed-top .navbar-inner {
 	text-shadow: none;
@@ -93,125 +68,11 @@ iframe {
 	width: 240px;
 }
 
-.youtube-item .badge.badge-warning {
-	position: absolute;
-	right: 7px;
-	top: 8px;
-}
-
-.youtube-item .item-likes {
-	vertical-align: middle;
-}
-.youtube-item .description {
-	height: 235px;
-	overflow: hidden;
-	background-color: rgba(255, 255, 255, .9);
-	position: absolute;
-	top: 0px;
-	left:0;
-	margin: 0;
-	padding: 8px;
-	box-sizing: border-box;
-	word-wrap:break-word;
-	font-size: 16px;
-	color: #000;
-	width: 100%;
-}
-.youtube-item.show-description .description {
-	overflow: auto;
-}
-.youtube-item .indicators {
-	height: 22px;
-}
 .show-description .btn.btn-mini.media-desc {
 	color: #efefef;
 	background: rgb(71, 68, 68);
 }
 
-/* youtube player module */
-.navbar .youtube-toolbar .nav > li > button:hover,
-.show-youtube-player .show-player,
-.fullscreen .fullscreen {
-	border-bottom: 4px solid rgb(26, 188, 156);
-	padding: 8px 20px;
-	box-shadow: none;
-}
-.youtube-toolbar .volume-down:hover,
-.youtube-toolbar .volume-up:hover {
-	opacity: .7;
-}
-.youtube-toolbar .volume-meter {
-	position: absolute;
-	top: -60px;
-	right: 201px;
-	font-size: 31px;
-	cursor: pointer;
-	color: #42C7EE;
-	text-shadow: 0 0 9px #49AFCD;
-	background: rgba(0,0,0,.9);
-	padding: 15px 10px;
-	border-radius: 3px;
-	width: 51px;
-	height: 20px;
-	text-align: center;
-}
-.volume-meter::after {
-	width: 0px;
-	height: 0px;
-	border-style: solid;
-	border-width: 6px 6px 0 6px;
-	border-color: #000 transparent transparent transparent;
-	top: 50px;
-	left: 27px;
-	content: '';
-	position: absolute;
-}
-.hide-volume .volume-meter {
-	display: none;
-}
-
-.show-player i {
-	-webkit-transform: rotateZ(0deg);
-	transform: rotateZ(0deg);
-	-webkit-transition: none;
-}
-.show-youtube-player .show-player i {
-	-webkit-transform: rotateZ(180deg);
-	transform: rotateZ(180deg);
-}
-
-.youtube-toolbar .icon-refresh {
-	margin: 13px;
-	float: right;
-	opacity: .5;
-	display: block;
-}
-.yt-playing .youtube-toolbar .icon-refresh {
-	-webkit-animation: rotation 12s infinite;
-	opacity: 1;
-}
-.youtube-toolbar .play {
-	padding:5px 20px;
-	font-size: 25px;
-}
-.yt-playing .play {
-	display: none;
-}
-.youtube-toolbar .pause {
-	display: none;
-	padding: 5px 20px;
-	font-size: 25px;
-}
-.navbar .youtube-toolbar .nav > li > button.play:hover,
-.navbar .youtube-toolbar .nav > li > button.pause:hover {
-	padding:5px 20px;
-}
-.yt-playing .pause {
-	display: inline-block;
-}
-@-webkit-keyframes rotation {
-	100% { -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg);transform: rotate(360deg);}
-}
 /* facebook like */
 .facebook-like {
 	height: 26px;
@@ -222,15 +83,6 @@ iframe {
 /* for the facebook page like*/
 .fb_iframe_widget {
 	max-height: 20px;
-}
-/* user playlists module */
-.user-playlists {
-	min-height: 0;
-	padding-bottom: 80px;
-}
-
-.wood a {
-	color: rgb(26, 188, 156);
 }
 
 /* playlist info */
@@ -305,7 +157,12 @@ iframe {
 .wood .nav-list li a {
 	padding: 10px 40px 10px 15px;
 }
-
+.active a {
+	.active-link-style();
+}
+.social-badge {
+	padding: 10px 0;
+}
 /* Mobile Phones */
 @media (max-width: 767px) {
 	body {
@@ -327,9 +184,6 @@ iframe {
 		border: none;
 	}
 
-	.youtube-player {
-		left: 20px;
-	}
 	.youtube-toolbar.navbar.navbar-inner {
 		width: 100%;
 		padding: 0;
@@ -374,6 +228,7 @@ iframe {
 	.row-fluid div ul li.youtube-item {
 		width: 33%;
 		min-width: 190px;
+		float:left;
 	}
 	/* player controls */
 	.volume-up, .volume-down {
