@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="wood" lang="en">
+<html class="wood" ng-app="mediaDeck">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,37 +12,42 @@
 	<meta name="google-signin-requestvisibleactions" content="http://schemas.google.com/AddActivity">
 	<meta name="google-signin-cookiepolicy" content="single_host_origin">
 
-	<title>Echoes Media Center ~=~ EMC</title>
+	<title>Echoes Player ~=~ EMC</title>
 	<meta name="description" content="Alternative to youtube, Media Player which with a great ux for playing youtube videos">
 	<meta name="author" content="Oren Farhi">
 	<link type="image/x-icon" rel="shortcut icon" href="img/noun_project_220.ico">
 
 	<meta name="MobileOptimized" content="320">
     <meta http-equiv="cleartype" content="on">
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1, user-scalable=0" user-scalable="no">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0" user-scalable="no">
 
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 	<link href='http://fonts.googleapis.com/css?family=Asap|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/flick/jquery-ui.css">
+	<!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/flick/jquery-ui.css"> -->
 </head>
-<body>
+<body ng-cloak>
 		<!-- TOP NAVIGATION BAR -->
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default navbar-fixed-top" player-resizer="fullscreen">
 			<div class="container-fluid">
-				<div class="navbar-header clearfix">
-					<a class="navbar-brand" href="#explore">
-						<span class="btn btn-navbar" id="sidebar-menu-toggler">
-							<i class="fa fa-bars"></i>
-						</span>
-						Ech<i class="glyphicon glyphicon-headphones"></i>es</a>
+				<div class="navbar-brand" drawer-toggle="drawer-opened">
+					<span class="btn btn-navbar" id="sidebar-menu-toggler">
+						<i class="fa fa-bars"></i><i class="fa fa-chevron-right"></i>
+					</span>
+					Ech<i class="glyphicon glyphicon-headphones"></i>es</div>
+
+				<div class="navbar-header" ng-controller="SearchCtrl as vm">
 					
 					<!-- SEARCH FORM -->
-					<form class="navbar-form form-search navbar-left" id="media-explorer">
+					<form class="navbar-form form-search navbar-left" id="media-explorer" ng-submit="vm.search()">
 						<div class="form-group">
-							<input placeholder="Explore My Media" id="media-search" type="search" class="form-control">
+							<input placeholder="Explore Media" id="media-search" type="search" class="form-control" autocomplete="off"
+								ng-model="vm.params.q"
+								typeahead="q for q in vm.complete($viewValue)"
+								typeahead-on-select="vm.updateSearch($item, $model, $label)"
+								>
 						</div>
 					</form>
 					
@@ -55,35 +60,50 @@
 
 					<div class="nav-collapse">
 						
-						<ul id="feed-filter" class="nav navbar-nav">
-					        <li class="videos">
-					        	<a href="#filter/videos" data-preset="1" title="Explore Videos"><i class="glyphicon glyphicon-film"></i> Videos</a>
+						<ul id="feed-filter" class="nav navbar-nav"
+							ng-controller="FeedCtrl as vm">
+					        <li class="feed-item" 
+					        	ng-repeat="feed in vm.data.items"
+					        	ng-class="{'active': feed === vm.active}"
+					        	ng-click="vm.setFeed(feed)">
+					        	<a title="Explore {{feed.label}}" href="#explore"
+					        		>
+					        		<i class="glyphicon glyphicon-{{feed.icon}}"></i> 
+					        		{{feed.label}}
+					        	</a>
 					        </li>
 					        
-					        <li class="playlists">
-					        	<a href="#filter/playlists" data-preset="2" title="Explore Playlists"><i class="glyphicon glyphicon-th-list"></i> Playlists</a>
-					        </li>
 						</ul>
 
-						<ul class="nav navbar-nav" id="search-presets"></ul>
+						<ul class="navbar-nav nav" id="search-presets"
+							ng-controller="PresetCtrl as vm">
+							<e-dropdown label="Presets" 
+								items="vm.presets" 
+								on-select="vm.updatePreset(item)"
+								icon="tag"
+								selected="{{ vm.selected }}"
+							></e-dropdown>
+						</ul>
 						
-						<ul class="nav navbar-nav" id="duration-picker">
-							<li class="dropdown">	
-								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-									<i class="glyphicon glyphicon-time"></i> Duration
-									<span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu"></ul>
-							</li>
+						<ul class="navbar-nav nav" id="duration-picker"
+							ng-controller="DurationCtrl as vm">
+							<e-dropdown label="Duration" 
+								items="vm.durations" 
+								on-select="vm.onDurationChange(item, index)"
+								icon="time"
+							></e-dropdown>
 						</ul>
 
 						 <!-- User Profile -->
-						<ul id="user-profile" class="nav navbar-nav navbar-right user-profile">
+						<ul id="user-profile" class="nav navbar-nav navbar-right user-profile"
+							ng-controller="UserMenuCtrl as vm"
+							ng-class="{ 'user-signed-in': vm.user.id }">
 							
 							<li class="dropdown">	
-								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-									<i class="glyphicon glyphicon-user icon-user"></i>
-									<span class="username">Sign In</span>
+								<a class="dropdown-toggle" data-toggle="dropdown" href="">
+									<i class="glyphicon glyphicon-user icon-user"
+										style="background-image: url({{ vm.user.snippet.thumbnails.high.url }})"></i>
+									<span class="username">{{vm.user.snippet.title}}</span>
 									<span class="caret"></span>
 								</a>
 								<ul class="dropdown-menu">
@@ -91,13 +111,16 @@
 										<a href="http://github.com/orizens/echoes" target="_blank">
 										<i class="fa fa-github"></i> About Echoes</a>
 									</li>
-									<li>
+									<!-- <li>
 										<a href="/updates/latest.json" target="_blank" class="action">
 										<i class="glyphicon glyphicon-cloud-upload"></i> Check For Updates</a>
-									</li>
-									<li><a href="#replaced-with-js-view" class="sign-in">
+									</li> -->
+									<li ng-show="!vm.user.id">
+										<a href="" class="sign-in"
+										youtube-sign-in="vm.saveUser(resource)"
+										>
 										<i class="glyphicon glyphicon-google-plus"></i> Sign In</a></li>
-									<li>
+									<li ng-show="vm.user.id">
 										<a href="#user-sign-out" class="sign-out">
 											<i class="glyphicon glyphicon-off"></i> Sign Out
 										</a>
@@ -111,14 +134,26 @@
 		</nav>
 
 		<!-- YOUTUBE PLAYER -->
-		<div id="youtube-player-container" class="navbar navbar-default navbar-inverse navbar-fixed-bottom youtube-player hide-volume">
+		<div id="youtube-player-container" class="navbar navbar-default navbar-fixed-bottom youtube-player hide-volume"
+			ng-controller="YoutubePlayerCtrl as vm"
+			ng-class="{ 
+				'show-youtube-player': vm.showPlayer,
+				'fullscreen': vm.isFullScreen
+					}">
 			<div class="yt-player ux-maker">
 				<div id="gp-share" class="pull-left">
 					<a href="" title="Share Now Playing Media With Your Circles"><img
 					  src="https://www.gstatic.com/images/icons/gplus-32.png" alt="Share on Google+"/></a>
 				</div>
-				<div id="facebook-like" class="facebook-like pull-left"></div>
-				<div id="player" class="ux-maker"></div>
+				<!-- <div id="facebook-like" class="facebook-like pull-left"></div> -->
+				<div id="player" class="ux-maker"
+					youtube-player
+					video-id="vm.video.mediaId"
+					is-playlist="vm.video.type"
+					index="vm.video.index"
+					height="vm.size.height"
+					width="vm.size.width"
+				></div>
 			</div>
 			
 			<div class="container-fluid">
@@ -128,9 +163,13 @@
 					<li class="player-controls pull-left">
 						
 						<div class="btn-group">
-							<button class="btn btn-default btn-lg navbar-btn show-player"><i class="glyphicon glyphicon-chevron-up"></i></button>
+							<button 
+								ng-click="vm.togglePlayer(!vm.showPlayer)" 
+								class="btn btn-default btn-lg navbar-btn show-player"><i class="glyphicon glyphicon-chevron-up"></i></button>
 									
-							<button class="btn btn-default btn-lg navbar-btn fullscreen"><i class="glyphicon glyphicon-fullscreen"></i></button>
+							<button class="btn btn-default btn-lg navbar-btn fullscreen"
+								ng-click="vm.toggleFullScreen()"
+								><i class="glyphicon glyphicon-fullscreen"></i></button>
 							
 									
 							<button class="btn btn-default btn-lg navbar-btn previous"><i class="glyphicon glyphicon-step-backward"></i></button>
@@ -157,17 +196,20 @@
 								
 				<ul class="navbar-nav nav">
 					<!-- create a drop up like duration for actions -->
-					<li class="dropdown dropup now-playing-actions">	
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Actions For This Media">
+					<li class="dropdown dropup now-playing-actions pull-left">	
+						<div class="dropdown-toggle" data-toggle="dropdown" href="#" title="Actions For This Media">
 							<i class="fa fa-ellipsis-v"></i>
-						</a>
+						</div>
 						<ul class="dropdown-menu">
 							<li>
-								<a class="add-to-playlist" href="add" title="Add The Current Media To A Playlist"><i class="fa fa-plus"></i> Add To A Playlist</a>
+								<button class="add-to-playlist btn btn-primary" title="Add The Current Media To A Playlist"
+									ng-click="vm.addToPlaylist()">
+									<i class="fa fa-plus"></i> Add To A Playlist
+								</button>
 							</li>
 						</ul>
 					</li>
-					<li>
+					<li class="media-info pull-left">
 						<div class="current-track-info current-playlist-info pull-right">
 							<div class="btn-group dropup navbar-btn">
 							  <button class="btn dropdown-toggle" title="Current Playlist" data-toggle="dropdown">
@@ -175,21 +217,32 @@
 							    <span class="caret"></span>
 							  </button>
 							  <div class="dropdown-menu">
-							  	<ul class="unstyled playlist-info"></ul>
+							  	<ul class="unstyled playlist-info">
+							  		<li class="playlist-provider-item" ng-repeat="track in nowPlaylist">
+							  			<a class="ellipsis" >
+							  				{{$index}} <img ng-src="{{track.video.thumb}}">
+							  			</a>
+							  		</li>
+							  	</ul>
 							  </div>
 							</div>
 						</div>
 					</li>
 					
-					<li>
-						<div class="current-track-info current-track-info-container pull-right">
+					<li class="media-info pull-left">
+						<div class="current-track-info current-track-info-container pull-right" 
+							ng-controller="MediaInfoCtrl as vm">
 							<div class="btn-group dropup navbar-btn">
 							  <button class="btn dropdown-toggle" title="Currently Playing" data-toggle="dropdown">
-							  	<span class="yt-media-title ellipsis">no media yet...</span>
+							  	<span class="yt-media-title ellipsis"><img ng-src="{{vm.video.thumb}}">{{vm.video.title}}</span>
 							    <span class="caret"></span>
 							  </button>
 							  <div class="dropdown-menu">
-							    	<div class="track-info"></div>
+							    	<div class="track-info" on-source-click="vm.onDescriptionClick">
+							    		<div ng-bind-html="vm.video.desc"></div>
+							    		<br>
+							    		{{vm.video.thumb}}
+							    	</div>
 							  </div>
 							</div>
 						</div>
@@ -208,43 +261,63 @@
 		</div>
 		
 		<!-- SIDEBAR -->
-		<div id="sidebar" class="sidebar sidebar-left-fixed well ux-maker closed">
-			<ul id="library-nav" class="nav nav-list nicer-ux">
+		<div id="sidebar" class="sidebar sidebar-left-fixed well ux-maker"
+			drawer-closed="closed"
+			>
+			<ul id="library-nav" class="nav nav-list nicer-ux" navigator>
 				<li class="nav-header">Library</li>
 				<li class="active"><a href="#explore"><i class="glyphicon glyphicon-music"></i>Explore</a></li>
 				<li><a href="#history"><i class="glyphicon glyphicon-time"></i>History</a></li>
 				<li><a href="#myPlaylists"><i class="glyphicon glyphicon-heart"></i>My Playlists</a></li>
 			</ul>
 			
-			<h3 class="nav-header nav-header-fluid">
-				Playlists
-				<div id="user-playlists-filter" class="pull-right">
-					<i class="fa fa-search"></i>
-					<input type="search">
-				</div>
-			</h3>
-			<div class="sidebar-pane">
-				<ul id="user-playlists" class="nav nav-list ux-maker nicer-ux user-playlists"></ul>
+			<div class="sidebar-pane" ng-controller="UserPlaylistsCtrl as vm">
+				<h3 class="nav-header nav-header-fluid">
+					Now Playing:
+					<div id="user-playlists-filter" class="pull-right">
+						<i class="fa fa-search" ng-show="vm.playlistSearch.length === 0"></i>
+						<i class="fa fa-remove text-danger" ng-show="vm.playlistSearch.length" ng-click="vm.playlistSearch = ''"></i>
+						<input type="search" ng-model="vm.playlistSearch">
+					</div>
+				</h3>
+				<ul id="user-playlists" class="nav nav-list ux-maker nicer-ux user-playlists"
+					ng-class="{ 'transition-in': vm.playlists.length }">
+					<li class="user-playlist"
+						ng-class="{ 'active': vm.nowPlaying.index === $index}"
+						ng-repeat="video in vm.playlists | filter:vm.playlistSearch track by $index">
+						<a class="" title="{{ video.snippet.title }}"
+							ng-click="vm.playVideo(video, $index)">
+							{{$index + 1}})
+							<img class="video-thumb" ng-src="{{ video.snippet.thumbnails.default.url }}">
+							<span class="video-title">{{ video.snippet.title }}</span>
+							<span class="badge badge-info">{{ video.time }}</span>
+							<span class="label label-danger" title="Remove From Playlist"
+								ng-click="vm.remove($event, video, $index)"><i class="fa fa-remove"></i></span>
+						</a>
+					</li>
+				</ul>
 			</div>
 		
 		</div>
-		<div class="modal-backdrop sidebar-backdrop"></div>
+		<!-- <div class="modal-backdrop sidebar-backdrop" drawer-toggle></div> -->
 		
-		<div id="loader">
-			<i class="glyphicon-refresh glyphicon fa-spin fa-3x"></i>
+		<div ng-controller="AppCtrl as vm">
+			<div id="loader" ng-show="vm.searching()">
+				<i class="glyphicon-refresh glyphicon fa-spin fa-3x"></i>
+			</div>
 		</div>
 
 		<!-- MAIN CONTENT -->
-		<div class="container-fluid container-main">
-			
+		<div class="container-fluid container-main" 
+			ng-class="{ 'drawer-opened': vm.drawerIsOpened()}"
+			ng-controller="AppCtrl as vm">
 
-			<div class="row-fluid">
-				
-				<div class="">
-					<!-- SEARCH RESULTS AREA -->
-					<div id="search-results" class="ux-maker search-results clearfix"></div>
-
-				</div>
+			<div class="row-fluid" >
+				<!-- SEARCH RESULTS AREA -->
+				<div id="search-results" class="ux-maker search-results clearfix main-view" 
+					ng-view
+					infinite-scroll="vm.loadMore()" infinite-scroll-distance="2"
+					ng-class="{ 'transition-in': !vm.searching(), 'transition-out': vm.searching()}"></div>
 			</div>
 
 			<!-- <footer class="navbar-inverse">
@@ -253,47 +326,26 @@
 
 		</div>
 
-	<div id="notification" class="modal fade">
-	  <div class="modal-dialog">
-	  	<div class="modal-content">
-	  		<div class="modal-header">
-	  		  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-	  		  <h3>Notice - Before You Start Listening...</h3>
-	  		</div>
-	  		<div class="modal-body">
-	  		  <p>
-	  		  	To have the <span class="label label-success">BEST</span> experience, it is better to opt in to <a href="http://youtube.com/html5" target="_blank">youtube's html5 trial</a><br>
-	  		  	After joining Youtube's html5 trial, refresh this page.
-	  		  </p>
-	  		</div>
-	  		<div class="modal-footer">
-	  		  <button class="btn" data-dismiss="modal">Close</button>
-	  		  <button class="btn btn-primary dont-remind">OK, Don't remind me the next time</button>
-	  		</div>
-	  	</div>
-	  </div>
-	</div>
-
-	<div id="playlists-viewer" class="modal fade">
-	  <div class="modal-dialog">
-	  	<div class="modal-content">
-	  		<div class="modal-header"></div>
-	  		<div class="modal-body">
-	  			<h3 class="sign-in-message">Please <a class="gsign-in" href="">sign in with your +google</a> to add videos to your playlists</h3>
-	  			<h5 class="title">Select a playlist to add the video to it</h5>
-	  		  <ul class="list-unstyled playlists user-playlist"></ul>
-	  		</div>
-	  		<div class="modal-footer">
-	  		  <button class="btn btn-primary" data-dismiss="modal">Close</button>
-	  		</div>
-	  	</div>
-	  </div>
-	</div>
+	<playlist-editor></playlist-editor>
 	
-	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script> -->
-	<script type="text/javascript"></script>
-	<script src="bundle.js"></script>
-	<script type="text/javascript">
+	<!-- build:js vendors.js -->
+	<!--  
+	<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="../bower_components/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+	<script type="text/javascript" src="../bower_components/angular-animate/angular-animate.js"></script>
+	<script type="text/javascript" src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+	<script type="text/javascript" src="../bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+	<script type="text/javascript" src="../bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>
+	-->
+	<!-- endbuild -->
+	<script src="vendors.js"></script>
+	<script src="app/bundle.js"></script>
+	<script src="templates.mdl.js"></script>
+	<!-- <script src="app/templates.mdl.js"></script> -->
+	<!--<script type="text/javascript">
 
 	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -304,7 +356,7 @@
 	    ga('require', 'linkid', 'linkid.js');
 	    ga('send', 'pageview');
 
-	</script>
+	</script> -->
 	<!-- Place this tag in your head or just before your close body tag. -->
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
 
