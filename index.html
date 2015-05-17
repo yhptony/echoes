@@ -25,7 +25,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 	<link href='http://fonts.googleapis.com/css?family=Asap|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="style.css?rev=04e6c6389931b2a71bd3475c3b8c6949">
+	<link rel="stylesheet" href="style.css?rev=3fa336f62dbb286a95444bfca783ef45">
 </head>
 <body ng-cloak>
 		<!-- TOP NAVIGATION BAR -->
@@ -110,6 +110,10 @@
 										<a href="http://github.com/orizens/echoes" target="_blank">
 										<i class="fa fa-github"></i> About Echoes</a>
 									</li>
+									<li>
+										<a href="https://chrome.google.com/webstore/detail/echoes-player/aaenpaopfebcmdaegggjbkhaedlbbkde" target="_blank">
+										<i class="fa fa-google"></i> Echoes ChromeApp</a>
+									</li>
 									<!-- <li>
 										<a href="/updates/latest.json" target="_blank" class="action">
 										<i class="fa fa-cloud-upload"></i> Check For Updates</a>
@@ -151,7 +155,8 @@
 					video-id="vm.video.mediaId"
 					index="vm.video.index"
 					height="vm.size.height"
-					width="vm.size.width"
+					width="vm.size.width",
+					auto-next
 				></div>
 			</div>
 			
@@ -159,7 +164,9 @@
 				
 				<ul class="navbar-nav nav youtube-toolbar nicer-ux clearfix">
 					
-					<li class="player-controls pull-left">
+					<li class="player-controls pull-left" 
+						ng-class="{'yt-playing': vm.isPlaying() }"
+						>
 						
 						<div class="btn-group">
 							<button 
@@ -171,11 +178,17 @@
 								><i class="fa fa-arrows-alt"></i></button>
 							
 									
-							<button class="btn btn-default btn-lg navbar-btn previous"><i class="fa fa-step-backward"></i></button>
+							<button class="btn btn-default btn-lg navbar-btn previous"
+								ng-click="vm.playPreviousTrack()">
+								<i class="fa fa-step-backward"></i></button>
 								
-							<button class="btn btn-default btn-lg navbar-btn pause"><i class="fa fa-pause"></i></button>
+							<button class="btn btn-default btn-lg navbar-btn pause"
+								ng-click="vm.pause()">
+								<i class="fa fa-pause"></i></button>
 								
-							<button class="btn btn-default btn-lg navbar-btn play"><i class="fa fa-play"></i></button>
+							<button class="btn btn-default btn-lg navbar-btn play"
+								ng-click="vm.play()">
+								<i class="fa fa-play"></i></button>
 								
 							<button class="btn btn-default btn-lg navbar-btn next" 
 								ng-click="vm.playNextTrack()"
@@ -340,9 +353,9 @@
 	<script type="text/javascript" src="../bower_components/ng-sortable/dist/ng-sortable.min.js"></script>
 	-->
 	<!-- endbuild -->
-	<script src="vendors.js?rev=0de95bc7c1465014f9b654d9961950a9"></script>
-	<script src="bundle.js?rev=cba6cbddb166b021559dd70228323f16"></script>
-	<script src="templates.mdl.js?rev=41b80f47c97531def5b1607d2825fcbb"></script>
+	<script src="vendors.js?rev=e328cdba7f46551f5915586f6bebd4e8"></script>
+	<script src="bundle.js?rev=b1b53488c800843bad6adbc3fb419082"></script>
+	<script src="templates.mdl.js?rev=b8cb74feffe730925caeb6a565108305"></script>
 	<!-- <script src="app/templates.mdl.js"></script> -->
 	<script type="text/javascript">
 
